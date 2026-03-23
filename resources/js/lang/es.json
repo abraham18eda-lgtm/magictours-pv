@@ -1,0 +1,732 @@
+{
+  "header": {
+    "home": "Inicio",
+    "tours": "Tours",
+    "about": "Nosotros"
+  },
+  "welcome": "¡Bienvenido!",
+  "logout": "Cerrar sesión",
+  "loading": "Cargando tours...",
+
+  "banner": {
+    "text_1": "Explora lugares que te dejarán sin aliento",
+    "text_2": "Explora playas paradisíacas",
+    "text_3": "Cada tour, una historia que contar"
+  },
+
+  "bloque_1": {
+    "title": "Vive la Magia de Puerto Vallarta",
+    "description": "En MagicTours transformamos cada momento en una experiencia inolvidable. Navega por las aguas cristalinas del Pacífico, descubre playas escondidas, explora pueblos llenos de tradición y disfruta emocionantes aventuras diseñadas para viajeros que buscan algo especial. Nuestro equipo profesional te acompaña con una atención cálida y personalizada para que cada tour se convierta en un recuerdo que atesorarás para siempre.<br /><strong>Tu viaje comienza aquí….</strong> "
+  },
+
+  "services": {
+    "title": "Nuestros Servicios",
+    "list": {
+        "1": "Servicio de la más alta calidad, garantizado.",
+        "2": "Atención calida de cada miembro de nuestro equipo profesional",
+        "3": "Calidad inigualable en nuestros servicios."
+    }
+  },
+
+  "tours" : {
+    "description": "Explora lo mejor que tenemos para ofrecer. Cada uno de nuestros tours ha sido cuidadosamente seleccionado para brindarte experiencias únicas que te dejarán recuerdos inolvidables. \n<strong>¡Haz clic y comienza tu próxima aventura con nosotros!</strong>",
+    "title": "Nuestras Recomendaciones de  Tours Favoritos",
+     "placeholder": "Descubre nuestros tours exclusivos",
+
+     "book" : {
+        "1" :"ALMA, Ritmos de la Noche",
+        "2" :"Playa Las Caletas & Adventure Park",
+        "3" :"Playa Escondida Islas Marietas",
+        "4" :"Islas Marietas y BBQ en la Playa",
+        "5" : "ALMA, Ritmos de la Noche - VIP",
+        "6" :"Cascada de Yelapa y BBQ en Majahuitas",
+        "7" :"Nado con Delfines Signature",
+        "8" :"Extreme Adventure, Tirolesas y ATV",
+        "9" :"Outdoor Adventure, Tirolesas y Cascadas"
+
+    }
+  },
+
+  "formErrors": {
+    "name": "Por favor ingresa tu nombre",
+    "email": "El correo no es válido",
+    "phone": "Por favor ingresa tu teléfono",
+    "tour": "Selecciona un tour",
+    "date": "Por favor ingresa la fecha"
+  },
+
+  "canvas" : {
+    "title": "La diversión y la aventura te esperan.”"
+  },
+
+  "routes": {
+    "home": {
+      "title": "Magic Tours Puerto Vallarta | Excursiones en Puerto Vallarta",
+      "description": "MagicToursPV es la mejor opción para descubrir y disfrutar de los mejores tours en Puerto Vallarta",
+      "og": {
+        "title": "Magic Tours Puerto Vallarta | Excursiones en Puerto Vallarta",
+        "image": "/images/home-es.jpg"
+      }
+    }
+  },
+
+  "cta": {
+    "primary_book": "Reservar Tour",
+    "view_tours": "Ver Más",
+    "all_tour": "Explorar todos los tours"
+  },
+  "whatsapp":{
+    "title": ""
+  },
+
+  "price": {
+    "moneda": "MXN"
+  },
+
+   "form": {
+    "name": "Nombre",
+    "phone": "Numero de Teléfono",
+    "date": "Fecha",
+    "email": "Correo Electrónico",
+    "name_tour": "¡Quiero vivir esta experiencia!",
+    "adults": "Adultos",
+    "menor": "Menores",
+
+
+    "cta_book":"Enviar datos para reservar",
+    "cta_book_success": "<div class='flex items-center justify-center'><img src='https://www.magictourspv.com/storage/logo/magic-tours-hz.svg' class='w-[200px] min-w-[180px] object-contain' alt='Logo' /></div> <br />Envio exitoso. <br />En unos momentos nos pondremos en contacto para validar tu informacion y garantizar tu reserva."
+  },
+
+   "bottombar": {
+    "title": "Contáctanos",
+    "email": "Correo Electrónico:",
+    "phone": "Numero de Teléfono:"
+  },
+
+  "slideBottom": {
+    "title": "Aventura Sin Límites",
+    "description": "Deja que tu corazón lata más rápido con Magictourspv. Explora el océano con emocionantes inmersiones de buceo, conquista imponentes cumbres y siente la adrenalina al recorrer senderos en ATV. Tenemos tours diseñados para crear experiencias únicas, ya sea en familia, con tu pareja o con amigos. ¡Reserva ahora y construye recuerdos que perdurarán toda la vida! \n  ¿A dónde te llevará tu próxima gran aventura?"
+  },
+
+   "ctadventure": {
+    "questions": "¿Estás listo para vivir una nueva aventura?",
+    "answear":"Descubre experiencias únicas que te llevarán más allá de lo que imaginas. ¡La aventura te espera!",
+    "cta": "¡Ver todos los tours y experiencias!"
+  },
+
+   "footer": {
+    "contact": {
+        "title": "",
+        "location": "",
+        "phone": "",
+        "email": ""
+    },
+
+    "details": {
+        "title": ""
+    },
+
+    "newsletter": {
+        "title": "Newsletter",
+        "description": "Suscríbete para recibir promociones y novedades.",
+        "name": "Nombre",
+        "email": "Correo Electrónico",
+        "cta_send": "Suscribirse"
+    },
+
+    "signature": {
+        "title" :"Magic Tours. Todos los derechos reservados."
+    }
+  },
+
+  "tours_detail": {
+    "include": {
+        "title": "QUÉ ESTÁ INCLUIDO"
+    },
+    "faqs": {
+        "title": "PREGUNTAS FRECUENTES"
+    }
+  },
+
+   "tabs": {
+    "canopy": {
+      "description": "Descripción",
+      "include": "¿Qué incluye?",
+      "recommendations": "Recomendaciones",
+      "requirements": "Requisitos"
+    }
+  },
+
+  "schedule": {
+     "title" : "Puntos de salida del transporte",
+    "card": [
+      {
+        "title": "Zona Romántica",
+        "description": "Insurgentes 379, Emiliano Zapata, 48380 Puerto Vallarta, Jal., México",
+        "schedule": "Horario de salida:",
+        "time": "8:00 | 10:20 | 14:20",
+        "mapUrl": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d933.661812107418!2d-105.23357659578323!3d20.60245841387644!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8421454d1b19c937%3A0xb0414bfe613c0929!2sCanopy%20River%20Centro%20Insurgentes!5e0!3m2!1sen!2smx!4v1766299355604!5m2!1sen!2smx"
+      },
+      {
+        "title": "Las Glorias Plaza",
+        "description": "Plaza Villas Vallarta, José Clemente Orozco Local H2-A, Zona Hotelera Nte., 48333 Puerto Vallarta, Jal., Mexico",
+        "schedule": "Horario de salida:",
+        "time": "7:50 | 10:00 | 14:00",
+        "mapUrl": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d933.4706775024285!2d-105.23028999999997!3d20.6336371!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8421506b6f6e9e31%3A0x3280b48953f6e3eb!2sCanopy%20River%20Oficina%20Las%20Glorias!5e0!3m2!1sen!2smx!4v1766299304303!5m2!1sen!2smx"
+      },
+      {
+        "title": "Playa de Oro",
+        "description": "Playa de Oro (Cruise) 126 F, Zona Hotelera, Zona Hotelera Nte., 48333 Puerto Vallarta, Jal.",
+        "schedule": "Horario de salida:",
+        "time": "7:40 | 9:50 | 13:50",
+        "mapUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3733.438592734987!2d-105.241823!3d20.651728!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8421454410506693%3A0x59fa458719199560!2sCanopy%20River%20Oficina%20Playa%20de%20Oro!5e0!3m2!1sen!2smx!4v1766299233602!5m2!1sen!2smx"
+      },
+      {
+        "title": "Nuevo Vallarta",
+        "description": "Av Mexico 570, 63735 Las Jarretaderas, Nay., México",
+        "schedule": "Horario de salida:",
+        "time": "7:20 | 9:30 | 13:30",
+        "mapUrl": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d933.0648743568784!2d-105.27596652883608!3d20.699684508742592!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8421468512d0c8ed%3A0x1bf8c0ca5b2d980!2sCanopy%20River%20Oficina%20Nuevo%20Vallarta!5e0!3m2!1sen!2smx!4v1766299547753!5m2!1sen!2smx"
+      },
+      {
+        "title": "Canopy River Park",
+        "description": "Camino Los Llanito km. 4.5 Los Almacenes, 48373 Puerto Vallarta, Jal.",
+        "schedule": "Horario de salida:",
+        "time": "8:40 | 10:40 | 14:40",
+        "mapUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3735.2342599337358!2d-105.20123919999999!3d20.5784888!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8421506b708b31ed%3A0x77e91e871be9f291!2sCanopy%20River%20Park!5e0!3m2!1sen!2smx!4v1766299509782!5m2!1sen!2smx"
+      }
+    ]
+  },
+
+  "accordions": {
+    "ritmos-de-la-noche": [
+    {
+      "title": "INFORMACIÓN ESENCIAL",
+      "items": [
+        "Por favor llegue al punto de registro de Vallarta Adventures al menos 45 minutos antes de la salida.",
+        "Edad mínima: 6 años",
+        "No recomendado para personas con movilidad reducida.",
+        "Para los pasajeros de la salida de las 5:30 pm, la cena se sirve después del show.",
+        "Tenga en cuenta que se aplica una tarifa de acceso de $20 USD al momento del check-in.",
+        "Se cobrará un access fee de $20 USD por persona en check-in"
+      ]
+    },
+    {
+      "title": "¿QUÉ DEBO LLEVAR?",
+      "description": "Para disfrutar al máximo tu experiencia en Ritmos de la Noche, no olvides traer:",
+      "items": [
+        "Zapatos cómodos (no tacones ni plataformas)",
+        "Repelente de insectos (durante los meses de verano)",
+        "Suéter o abrigo ligero (durante los meses de invierno)",
+        "Dinero extra para tarifas del muelle, fotos y souvenirs."
+      ]
+    },
+    {
+      "title": "DESCUBRE LA MÁGICA HISTORIA DE ALMA",
+      "texto": [
+        "En esta magnífica cena-espectáculo en Puerto Vallarta, serás testigo del esplendor de ALMA, un viaje que revela las maravillas de la conexión con la naturaleza, los seres vivos y los espíritus de la selva milenaria.",
+        "La Pirámide del Sol, con su espíritu guardián, es un emblema de México. Oculta a la vista de muchos, hay otra pirámide, un santuario secreto de energía mística accesible solo para aquellos que buscan una experiencia transformadora.",
+        "La trama se centra en el excéntrico custodio de este templo secreto y su objeto sagrado, cuya misión es prevenir que el artefacto más sagrado y espiritual de la región sea perturbado. Su rol es crucial: la pirámide encierra la clave para la comunicación entre los dioses y la humanidad.",
+        "El singular vigilante forja un lazo con la pirámide que despierta una cadena de renaceres espirituales, marcando el comienzo de su propio viaje de autodescubrimiento. Descubre que la armonía universal depende del respeto y la adoración de la humanidad a la naturaleza.",
+        "El escenario de esta envolvente obra es un anfiteatro al aire libre, surrealista y acogedor, escondido en la profundidad de la jungla, donde la narrativa se despliega mágicamente ante ti.",
+        "Ritmos de la Noche es una joya entre lo mejor de la vida nocturna de Puerto Vallarta. ¡Asegura hoy mismo tus boletos para Rhythms of the Night y garantiza tu lugar en el espectáculo con cena #1 de Puerto Vallarta! Reserva ahora.",
+        "Para cualquier duda sobre Ritmos de la Noche, estamos a tu disposición."
+      ]
+    },
+    {
+      "title": "Mukhtar Mukhtar y Eugenio Caballero, la dupla detrás de ALMA",
+      "texto": [
+        "La magia de ALMA por Ritmos de la Noche cobra vida gracias al talento combinado de dos grandes creativos: Mukhtar Mukhtar, reconocido director artístico y coreógrafo con décadas de experiencia en producciones escénicas internacionales, y Eugenio Caballero, diseñador de producción ganador del Óscar, famoso por su visión cinematográfica única.",
+        "Mukhtar ha liderado la dirección artística de eventos de clase mundial como LOVE, Echo y Messi10 de Cirque du Soleil, las ceremonias olímpicas de Pekín y el show de medio tiempo del Super Bowl. Desde su llegada a Vallarta Adventures, ha impregnado a ALMA con su característico estilo de narrativa, movimiento y espectacularidad.",
+        "Eugenio Caballero, responsable de los impactantes diseños visuales en películas como El Laberinto del Fauno, Roma y Un Monstruo Viene a Verme, aporta una grandeza cinematográfica al entorno natural de Las Caletas. Su escenografía transforma el anfiteatro en la selva en un escenario onírico, donde la cultura, el mito y el arte mexicano se fusionan bajo las estrellas."
+      ]
+    },
+    {
+      "title": "VIVE LO MEJOR DE LA VIDA NOCTURNA DE PUERTO VALLARTA",
+      "texto": [
+        "La animada vida nocturna de Puerto Vallarta tiene mucho que ofrecer incluyendo eventos culturales, bares y restaurantes, pero el espectáculo Ritmos de la Noche es una actividad como ninguna otra.",
+        "Desde que te acercas a Las Caletas al anochecer, la maravillosa vista de la costa iluminada únicamente por cientos de velas y antorchas te envolverá en su magia. El suave olor del copal, el espectacular entorno natural y el sonido ritmico de los tambores te darán la bienvenida a una noche inigualable.",
+        "Admira cómo nuestro anfiteatro al aire libre cobra vida por la noche, transformándose en un mundo encantado de luces de colores y música, con magníficos bailarines, asombrosos malabaristas con fuego y diestros acróbatas. Mientras los protagonistas tejen un cuento místico, te sentirás parte de las celebraciones espirituales de las tradiciones más antiguas de la región.",
+        "Los deliciosos sabores de la cena buffet están creados por nuestro equipo de chefs para deleitar los paladares más exigentes. Con opciones para todos los gustos, la romántica cena iluminada a la luz de las velas, acompañada por vinos y cocteles, será el complemento perfecto para esta fantástica noche en Puerto Vallarta.",
+        "Si quieres mejorar aún más tu experiencia, puedes optar por las entradas VIP que incluyen abordaje prioritario al barco, ubicaciones privilegiadas en el show, y las mejores mesas durante la cena."
+      ]
+    },
+    {
+      "title": "¿Cuánto Cuestan los Boletos para Rhythms of the Night?",
+      "texto": [
+        "Los precios de los boletos varían según la temporada y el paquete. Consulta nuestro sitio web para conocer las tarifas más recientes y ofertas exclusivas."
+      ]
+    }
+    ],
+
+    "crucero-a-las-caletas": [
+      {
+        "title": "Combo Las Caletas y Delfines",
+        "texto": [
+          "Al reservar el Combo Las Caletas y Delfines podrás disfrutar de todas las maravillosas actividades de Las Caletas en un día y vivir la increíble experiencia de nadar con delfines en otro.",
+          "¡Esta es la combinación perfecta para hacer que tus vacaciones sean realmente inolvidables! ",
+          "Ahorra un 25% adicional sobre los precios ya rebajados, al reservar estas dos actividades en Combo."
+        ]
+      },
+      {
+        "title": "Información esencial",
+        "texto": [
+          "<li>Ten en cuenta que debes llegar a la oficina de Check-in de Vallarta Adventures al menos 45 minutos antes de la salida.</li>",
+          "<li>El horario de las actividades puede variar sin previo aviso debido al clima y las condiciones del mar.</li>",
+          "<li>Para tu seguridad, los chalecos salvavidas son obligatorios durante todas las actividades acuáticas.</li>",
+          "<li>Debido a regulaciones federales y para proteger la trayectoria de vuelo de aves endémicas, los drones están prohibidos en este recorrido.</li>",
+          "<li>Los pasajeros de cruceros deben reservar a través de la página de excursiones en tierra de su línea de cruceros. Las opciones de horario presentadas en este sitio pueden entrar en conflicto con los horarios de llegada o salida del crucero.</li> <br>",
+          "<strong>Kids Adventure Park</strong>",
+          "<li>El Parque de aventuras para niños en Las Caletas es exclusivo para niños entre 4 y 11 años. Estatura mínima de 1 m (3,25 pies).",
+          "<li>Los niños deben estar acompañados por un adulto.</li><br />",
+          "<strong>Parque de Aventuras</strong>",
+          "<li>Estas actividades son físicamente exigentes y requieren que los participantes se encuentren en una excelente condición física y mental.</li>",
+          "<li>No se permite la participación en las actividades a personas bajo los efectos del alcohol.</li>",
+          "<li>Tobogán acuático RattleSnake, Step Up, Tirolesa al mar, Banana y Flowrider: 9 años o más. Estatura mínima 1.20 m (4 pies), peso máximo 118 kg (260 lbs).</li>",
+          "<li>Tobogán acuático Slide n'Fly, Spinner giratorio: Edad de 15 a 40 años. Estatura mínima 1.20 m (4 pies), peso mínimo 40 kg (88 lbs), peso máximo 118 kg (260 lbs).</li>",
+          "<li>Los menores de 18 años deberán estar acompañada de un adulto.</li>",
+          "<li>Solicitamos amablemente que las mujeres embarazadas, las personas con enfermedades cardíacas o aquellas con problemas de espalda o columna se abstengan de participar en las actividades para garantizar su seguridad y bienestar.</li>"
+        ]
+      },
+      {
+        "title": "¿Qué debo llevar? ",
+        "items": [
+          "Traje de baño, sombrero, lentes de sol y toalla",
+          "Protector solar biodegradable y repelente de insectos",
+          "Suéter ligero (durante los meses de invierno))",
+          "Dinero extra para tarifas del muelle, fotografías y recuerdos."
+        ]
+      },
+
+      {
+        "title": "Celebra tu Boda en Las Caletas ",
+        "texto": [
+          "Haz realidad la boda de tus sueños en un paraíso tropical, con la exuberante vegetación de la selva virgen de la Sierra Madre por un lado y las aguas azul profundo del Océano Pacífico por el otro.",
+          "Imagínate palmeras meciéndose con la suave brisa y coloridas guacamayas volando sobre ti y tus invitados, creando un maravilloso telón de fondo para el día más especial de tu vida.",
+          "Contacta al equipo de Adventure Weddings para obtener más información sobre bodas en <span class='underline'>Las Caletas.</span>"
+        ]
+      }
+    ],
+
+    "playa-escondida-islas-marietas": [
+      {
+        "title": "INFORMACIÓN ESENCIAL",
+        "items": [
+          "Ten en cuenta que debes llegar a la oficina de Check-in de Vallarta Adventures al menos 45 minutos antes de la salida.",
+          "Edad mínima: 12 años / Edad máxima: 65 años",
+          "En cumplimiento con regulaciones federales, el acceso a la Playa Escondida está limitado a una duración de 15 a 20 minutos.",
+          "El acceso a la playa está sujeto a las condiciones del mar y no está garantizado.",
+          "Los participantes deben estar en buena forma y ser capaces de nadar 60 metros (200 pies) desde el barco hasta la playa. La distancia puede variar según las condiciones del mar.",
+          "Por favor, abstente de usar protector solar, incluso biodegradable, ya que es perjudicial para la fauna y flora marina.",
+          "Debido a regulaciones federales y por tu seguridad, se requiere el uso de chalecos salvavidas y cascos para pasar por el pasaje rocoso hacia la playa.",
+          "De acuerdo con las regulaciones de Parques Nacionales y en un esfuerzo por proteger la ruta de vuelo de aves endémicas, se prohíben los drones en este tour.",
+          "Se cobrará una Tasa de Conservación de $180 pesos por persona al momento del check-in.",
+          "Este tour no es apto para mujeres embarazadas y personas con problemas de espalda, cuello, corazón, equilibrio o vértigo."
+        ]
+      },
+      {
+        "title": "¿QUÉ DEBO TRAER?",
+        "items": [
+          "Traje de baño y toalla",
+          "Ropa con protección solar",
+          "Suéter ligero (durante los meses de invierno)",
+          "Dinero adicional para tarifas de muelle, tasa de conservación y fotos."
+        ]
+      },
+      {
+        "title": "Embárcate en un eco tour a Playa Escondida",
+        "texto": [
+          "Pasea por la icónica Playa Escondida en las Islas Marietas y vive la experiencia de estar dentro de un raro cráter en la superficie rocosa de la isla que solo se abre al cielo y al Océano Pacífico, rodeándote de cristalinas aguas turquesas y arena dorada.",
+          "Descubre impresionantes formaciones rocosas naturales, espectaculares acantilados en los que chocan las olas y contempla las raras especies de aves que vuelan libremente a tu alrededor. Nuestros guías expertos compartirán sus conocimientos sobre la historia de las islas y su abundante y vibrante vida marina."
+        ]
+      },
+
+      {
+        "title": "¿Cómo se llega a la Playa Escondida?",
+        "texto": [
+          "Un emocionante paseo escénico de 1 hora a través de la bahía a bordo de una de nuestras lanchas rápidas te llevará a las Islas Marietas. A medida que nos acercamos a la isla donde se encuentra la Playa Escondida, todos los participantes se equiparán con cascos, máscaras de snorkel y chalecos salvavidas, y saltarán del barco al agua.",
+          "Tu guía liderará al grupo nadando bajo arcos de roca hasta llegar a la playa. La distancia de nado hasta la Playa Escondida es de aproximadamente 60 mt, ¡así que prepárate para comenzar tu día con un poco de actividad física! Todo el recorrido es una auténtica aventura en la cual llegar a la Playa Escondida es la fantástica recompensa que corona una excursión increíble."
+        ]
+      },
+      {
+          "title": "Tómate una foto en uno de los lugares más emblemáticos de Puerto Vallarta",
+          "texto": [
+              "Al buscar Puerto Vallarta en las redes sociales, apostamos a que te has encontrado con magníficas fotos de viajeros de todo el mundo que han tenido la oportunidad de visitar la Playa Escondida de Marietas. ¡Esta es tu oportunidad de añadir un par de fotos de este Instagrammable lugar a tu publicaciones!"
+          ]
+      },
+
+      {
+          "title": "Descubre la Fauna del Parque Nacional Islas Marietas ",
+          "texto":[
+              "Nada a través de cuevas y arcos de piedra, admirando las más de 100 especies de aves y peces que llaman hogar a Marietas, incluido el famoso pájaro bobo de patas azules.",
+              "Al sumergirte bajo la superficie de esta reserva natural protegida, tendrás la oportunidad de ver coloridos peces tropicales, erizos de mar, anguilas, peces globo y ocasionalmente, tortugas marinas y mantarrayas.",
+              "Desde finales de diciembre hasta marzo, incluso es posible presenciar el impresionante espectáculo de las ballenas jorobadas en su migración anual. ¡Este tour es imprescindible para los amantes de la vida silvestre!"
+          ]
+      },
+      {
+          "title": "¿Cómo se formó la Playa Escondida?",
+          "texto":[
+              "Las Islas Marietas fueron moldeadas por las fuerzas de la naturaleza y de la historia. Nacidas de antiguas erupciones volcánicas, más tarde fueron usadas como campo de pruebas militares a principios del siglo XX. Fueron precisamente algunas de las bombas que cayeron sobre la superficie de las islas las que dieron origen a las impresionantes cuevas y formaciones rocosas que tendrás la oportunidad de explorar en esta excursión",
+              "Nuestro tour a la Playa Escondida te brinda la oportunidad de ver y explorar esta maravilla geológica única en grupos pequeños. Además, nuestros guías expertos compartirán la interesante historia de las Islas Marietas, que va desde ser un blanco militar hasta convertirse en un Parque Nacional y una Reserva de la Biosfera de la UNESCO."
+          ]
+      }
+    ],
+
+    "islas-marietas": [
+      {
+        "title": "¿Qué debo traer?",
+        "description": "",
+        "items": [
+          "Traje de baño y toalla",
+          "Ropa con protección solar",
+          "Suéter ligero (durante los meses de invierno)",
+          "Dinero adicional para tarifas de muelle, souvenirs y fotos"
+        ]
+      },
+      {
+        "title": "Explora el Parque Nacional Islas Marietas",
+        "texto": [
+          "Este tesoro escondido del Pacífico Mexicano, apasionadamente defendido por el renombrado oceanógrafo Jacques Cousteau en los años 60, se ha convertido en un Parque Nacional lleno de biodiversidad. Aquí, los pájaros bobos de patas azules, los delfines, las ballenas jorobadas y una diversa vida marina prosperan en un entorno protegido.",
+          "Nuestra visita a las Islas Marietas te ofrece una experiencia inmersiva que te permite apreciar el resultados de los esfuerzos de conservación. Sumérgete en las aguas prístinas para disfrutar de aventuras de snorkel guiadas, rema a través de arcos de piedra en tu kayak y participa en un tour breve de avistamiento de aves.",
+          "Como una de las pocas compañías autorizadas para llevar visitantes al Parque Nacional Islas Marietas, sentimos una profunda responsabilidad de garantizar su preservación. Somos miembros de una organización civil dedicada a la conservación de las Islas Marietas y continuamente unimos esfuerzos con ellos para salvaguardar esta reserva natural."
+        ]
+      },
+
+      {
+        "title": "Observa de cerca la Vibrante Vida Marina de las Islas Marieta",
+        "texto": [
+          "Sumérgete en el vibrante mundo de Las Islas Marietas, donde la vida marina prospera, desde escuelas de coloridos peces tropicales y elegantes rayas, anguilas y tortugas hasta juguetones delfines. Nuestro tour a las Islas Marietas es tu puerta de entrada a este increíble universo.",
+          "En la temporada de invierno, podrías tener la suerte de presenciar ballenas jorobadas en su hábitat natural. Imagina a estos magníficos gigantes saltando a solo unos metros de nuestro bote: una experiencia impresionante que querrás atesorar con tus amigos y familiares.",
+          "Mientras la temporada de ballenas en la Bahía de Banderas se extiende desde mediados de diciembre hasta finales de marzo, tenemos la suerte de encontrarnos con delfines salvajes durante todo el año. Nuestros espaciosos catamaranes ofrecen la mejor oportunidad para observar a estas criaturas juguetonas e inteligentes. A menudo se unen a nosotros, nadando graciosamente junto a nuestro barco, permitiéndonos maravillarnos de su agilidad y encanto.",
+          "Para buzos certificados que desean explorar el mundo submarino de las Islas Marietas y admirar la increíble riqueza de fauna y flora que habita en las profundidades, nuestro Tour de Buceo en las Islas Marietas es perfecto. En compañía de los experimentados buzos guía de nuestro Centro PADI 5 Estrellas, podrás vivir una experiencia maravillosa y segura."
+        ]
+      },
+      {
+          "title": "Relájate y recárgate de energía en la Playa Majahuitas",
+          "texto": [
+              "Justo al sur de las encantadoras Islas Marietas se encuentra la apartada Playa Majahuitas, una joya costera rodeada por aguas color esmeralda, exuberante vegetación tropical y áreas de descanso en estilo boho chic, con vistas impresionantes.",
+              "Nuestro tour a las Islas Marietas es el único en Puerto Vallarta que incluye una parada en esta exclusiva playa. Creemos que es la manera perfecta de relajarse y recargarse de energía después de un día de exploración emocionante.",
+              "Majahuitas te invita a disfrutar de sus prístinas arenas doradas, nadar en sus refrescantes aguas, relajarte en elegantes sillas lounge y camas balinesas, o continuar tu exploración con nuestro equipo de snorkel de cortesía. Tu visita también incluye un delicioso buffet BBQ en el club de playa.",
+              "¿Pero por qué limitar tu experiencia en Majahuitas? Explora nuestro tour familiar Día de Playa en Majahuitas los domingos o sumérgete en los ritmos de los mejores DJs tocando en vivo con el telón de fondo de esta serena playa en el Majahuitas Beach Party los sábados, una fusión inolvidable de música y belleza natural."
+          ]
+      },
+
+      {
+          "title": "Disfruta del Mejor Tour a las Islas Marietas",
+          "texto":[
+              "Experimenta las Islas Marietas como nunca antes, ya sea sumergiéndote en las cristalinas aguas que las rodean, remando a través de cavernas rocosas o relajándote en las camas balinesas en el Majahuitas Beach Club; nuestro tour Islas Marietas Eco Discovery promete una maravillosa aventura de ecoturismo para todos.",
+              "¡Y lo mejor es que llegar y regresar es la mitad de la diversión cuando viajas con Vallarta Adventures! A bordo de nuestros catamaranes, disfrutarás de la barra libre y una amigable tripulación.",
+              "No solo nuestro experimentado personal bilingüe atenderá todas tus necesidades, asegurándose de que siempre tengas una bebida fría y refrescante en la mano, sino que también ofrecerán una divertido show musical de regreso a Vallarta; sin duda, te sacará una sonrisa.",
+              "Desde visitas a los pueblos costeros de <span class='underline'>Sayulita y San Pancho</span> hasta el Pueblo Mágico de <span class='underline'>San Sebastián del Oeste</span>, ofrecemos excursiones inolvidables y viajes de un día para aprovechar al máximo tus vacaciones en Puerto Vallarta. ¡Contáctanos para obtener más información!"
+          ]
+      },
+      {
+          "title": "Majahuitas: El Mejor Lugar para una Boda de Playa en México",
+          "texto":[
+              "Majahuitas es el lugar ideal para una boda de destino en la playa en México, perfecto para parejas que buscan un escenario privado e inolvidable. Alejado del bullicio de la ciudad, esta playa exclusiva ofrece serenidad y belleza natural, convirtiéndola en el sitio perfecto para tu día especial.",
+              "Con las impresionantes montañas de la Sierra Madre y el brillante Océano Pacífico como telón de fondo, Majahuitas ofrece una ubicación espectacular para tu ceremonia en la playa. Sus arenas doradas y vistas pintorescas de la Bahía de Banderas crean el escenario ideal para una experiencia de boda extraordinaria.",
+              "Confía en el equipo de Adventure Weddings para hacer realidad la boda en la playa de tus sueños en este destino mágico."
+          ]
+      }
+    ],
+
+    "ritmos-de-la-noche-vip": [
+       {
+        "title": "Información Esencial",
+        "items": [
+          "Las salidas son desde el punto de registro de Vallarta Adventures en Marina Vallarta. Llega 45 minutos antes para el abordaje.",
+          "Edad mínima: 6 años",
+          "No recomendado para personas con movilidad reducida.",
+          "Para los pasajeros de la salida de las 5:30 pm, la cena se sirve después del show. ",
+          "Tenga en cuenta que se aplica una tarifa de acceso de $20 USD al momento del check-in.",
+          "<strong>Se cobrará un Access Fee de $20 USD por persona en Check-in</strong>"
+        ]
+      },
+      {
+        "title": "Que Llevar",
+        "description": "",
+        "items": [
+          "Zapatos cómodos",
+          "Suéter ligero o chaqueta",
+          "Efectivo extra para tarifas portuarias, fotos y souvenirs"
+        ]
+      },
+      {
+        "title": "El Espectáculo Nocturno #1 en Puerto Vallarta",
+        "texto": [
+          "Descubre la experiencia VIP definitiva de Rhythms of the Night en Puerto Vallarta—una velada galardonada y reconocida por <b>The New York Times y TripAdvisor</b>. ALMA VIP by Rhythms of the Night combina actuaciones impresionantes, cena gourmet y el romance de un crucero al atardecer, creando una noche inolvidable en la bahía.",
+          "Aborda un <b>catamarán de lujo</b> para disfrutar de un crucero escénico al atardecer a través de la Bahía de Banderas. Durante el trayecto hacia <b>Las Caletas</b>, el lugar exclusivo donde se lleva a cabo Rhythms of the Night VIP, disfrutarás de <b>bebidas y aperitivos de cortesía</b>.",
+          "El espectáculo ALMA se desarrolla <b>bajo las estrellas</b>, rodeado por la selva tropical y ambientado con antorchas tiki y velas. Todo ocurre en el <b>anfiteatro al aire libre</b> de Las Caletas, cerca de la Pirámide del Sol, un entorno mágico que realza las presentaciones y narrativas fascinantes.",
+          "ALMA by Rhythms of the Night es una celebración sensorial de la naturaleza, la cultura y las leyendas ancestrales. Este espectáculo hipnotizante es una experiencia obligada para quienes buscan lo mejor de la vida nocturna en Puerto Vallarta.",
+          "Mientras disfrutas de <b>actuaciones asombrosas</b> de bailarines, malabaristas con fuego y acróbatas, saborea una <b>cena buffet gourmet bajo las estrellas</b>. Asegura ya tus boletos para Rhythms of the Night Puerto Vallarta y vive una noche para recordar."
+        ]
+      },
+
+      {
+        "title": "¿Qué es Ritmos de la Noche?",
+        "texto": [
+          "Ritmos de la Noche Puerto Vallarta es una velada envolvente llena de encanto, cultura y entretenimiento. Disfruta de un crucero escénico al atardecer por la Bahía de Banderas, presencia la aclamada presentación de ALMA VIP by Rhythms of the Night y saborea una cena gourmet bajo las estrellas con cócteles ilimitados. Más que un espectáculo, es una aventura imperdible en Puerto Vallarta."
+        ]
+      },
+      {
+          "title": "¡Reserva Ahora Una Noche VIP Inolvidable!",
+          "texto": [
+              "Haz que tu noche sea inolvidable con el paquete VIP de Rhythms of the Night Puerto Vallarta. Desde el impresionante crucero al atardecer hasta la fascinante presentación de ALMA y la cena gourmet, cada detalle está diseñado para verdaderos VIP. ¡Reserva hoy tus boletos VIP y vive una experiencia única en Puerto Vallarta!"
+          ]
+      }
+    ],
+
+    "yelapa-majahuitas": [
+       {
+        "title": "Información Esencial",
+        "items": [
+          "Ten en cuenta que debes llegar a la oficina de Check-in de Vallarta Adventures al menos 45 minutos antes de la salida.",
+          "El precio de niños aplica para edades de 4 a 11 años. El precio de adultos aplica para edades de 12 años en adelante.",
+          "Por tu seguridad, se requiere el uso de chalecos salvavidas en todas las actividades acuáticas.",
+          "Durante o después de lluvias fuertes, nadar en la cascada en Yelapa puede ser peligroso.",
+          "De acuerdo con regulaciones federales y en un esfuerzo por proteger la ruta de vuelo de aves endémicas, los drones están prohibidos en este tour."
+        ]
+      },
+      {
+        "title": "¿Qué debo llevar?",
+        "description": "",
+        "items": [
+          "Traje de baño y toalla",
+          "Zapatos cómodos (para explorar las calles de Yelapa)",
+          "Protector solar biodegradable",
+          "Suéter ligero (durante los meses de invierno)",
+          "Dinero adicional para tarifas de muelle, fotos, souvenirs y compra de alimentos y/o bebidas en Majahuitas Beach Club"
+        ]
+      },
+      {
+        "title": "Explora el Pueblo Pesquero de Yelapa",
+        "texto": [
+          "Ubicado en la costa del Pacífico mexicano, justo al sur de Puerto Vallarta, se encuentra Yelapa, un pintoresco pueblo pesquero que ha logrado mantenerse como uno de los secretos mejor guardados de Jalisco.",
+          "En este tranquilo pueblo costero el tiempo parece detenerse mientras caminas por sus estrechas calles empedradas que ofrecen vistas espectaculares del río, la costa y la exuberante vegetación tropical que cubre las montañas de la Sierra Madre. A lo largo del camino, descubrirás coloridos murales e intrincados trabajos en azulejos y mosaicos que decoran paredes y escaleras, convirtiendo tu paseo en una experiencia artística digna de Instagram.",
+          "En cada esquina, una nueva maravilla te espera. Encontrarás vendedores exhibiendo sus coloridas artesanías, souvenirs y recuerdos hechos a mano. ¡No te pierdas la oportunidad de probar una delicia local conocida simplemente como el \"pay de Yelapa\"! Elaborado con frutas tropicales como plátano, coco y limón, este delicioso postre se ofrece en la playa por las familias que lo preparan artesanalmente en casa.",
+          "Si no tienes ganas de caminar puedes también relajarte en uno de los encantadores restaurantes frente a la playa de Yelapa. Imagínate con una cerveza fría y refrescante o una bebida tropical en la mano, cómodamente sentado mientras disfrutas de la vista fascinante de las lanchas pesqueras flotando suavemente sobre las tranquilas y cálidas aguas de Yelapa.",
+          "Durante la temporada de lluvias, la famosa cascada de Yelapa, también conocida como \"Cola de Caballo\" se llena de agua ofreciendo un atractivo adicional al pueblo. Si tomas el tour a Yelapa y Majahuitas entre julio y octubre, aprovecha la oportunidad para unirte a la caminata guiada hacia esta refrescante cascada, y descubre una razón más por la que Yelapa es apodada “el paraíso en la Tierra”."
+        ]
+      },
+
+      {
+        "title": "Admira la Hermosa Playa Majahuitas",
+        "texto": [
+          "Otro punto destacado de nuestro tour a Majahuitas y Yelapa en Puerto Vallarta es la oportunidad de visitar la exclusiva playa Majahuitas. Con sus arenas doradas y sus aguas color esmeralda, es el destino perfecto para un día de snorkel, paddleboard y kayak.",
+          "Ubicada en la costa sur de la bahía en un entorno natural que solo es accesible en barco, la playa de Majahuitas está protegida por acantilados, bordeada por un apacible riachuelo a un costado, y una hermosa cascada al otro. ",
+          "Puedes pasar tu tiempo aquí admirando la abundante vida marina que habita bajo la superficie, o puedes disfrutar del sol mientras tomas una bebida tropical en el Majahuitas. ",
+          "Si deseas pasar más tiempo en la hermosa Majahuitas, visítanos los domingos para disfrutar de un Día de Playa en Majahuitas con un relajado ambiente familiar. Pero si lo que buscar es vivir una de las mejores fiestas de playa de Puerto Vallarta con DJs tocando en vivo todos los sábados, entonces Majahuitas Beach Party es la opción para ti."
+        ]
+      },
+      {
+          "title": "Navega por la Bahía de Banderas",
+          "texto": [
+              "Como parte de tu tour a Yelapa y Majahuitas, disfrutarás de un pintoresco paseo en barco que te llevará desde y hacia Puerto Vallarta. Navega por la costa sur de la bahía admirando la vista de Puerto Vallarta y las montañas que se pierden en el horizonte, mientras disfrutas de las refrescantes bebidas de nuestra barra libre.",
+              "¡Pero eso no es todo! También incluiremos buena música, baile y entretenimiento a cargo de la divertida tripulación de Vallarta Adventures.",
+              "Si no te cansas del mar y quieres más oportunidades para explorar Puerto Vallarta en barco, echa un vistazo a nuestro Velero de Lujo al Atardecer o nuestro exclusivo Tour de Snorkel en Yate. Por favor, contáctanos para obtener más información sobre las otras emocionantes aventuras por mar que ofrecemos."
+          ]
+      },
+
+      {
+          "title": "Celebra tu boda en Majahuitas",
+          "texto": [
+              "Desde el primer momento en que llegas a Majahuitas, te das cuenta de por qué es un sueño hecho realidad para aquellos que quieren decir \"sí, acepto\" en un entorno tropical maravilloso.",
+              "La majestuosa selva tropical de las montañas de la Sierra Madre, el color esmeralda del océano Pacífico y la total privacidad de esta playa, solo accesible en barco, convierten a Majahuitas en una locación de bodas única en Puerto Vallarta. ",
+              "Visita Adventure Weddings para obtener más información sobre bodas en Majahuitas."
+          ]
+      }
+    ],
+
+    "nado-con-delfines-signature": [
+       {
+        "title": "Información Esencial",
+        "items": [
+          "Ten en cuenta que debes llegar a la oficina de Check-in de Vallarta Adventures al menos 45 minutos antes del inicio del programa.",
+          "Edad mínima: Niño 5 años. Adulto: 12 años.",
+          "Altura mínima: 1.20 metros.",
+          "<b>Precio de niño:</b> De 5 a 11 años. <b>Precio de adulto:</b> A partir de 12 años",
+          "<b>Para niños menores de 12 años:</b> Un adulto (+16) puede entrar al agua con hasta 3 niños; siempre y cuando cada uno mida al menos 1.20 m. • Niños menores de 1.20 m necesitan un adulto pagado (+16) por niño.",
+          "No se permite el acceso con joyas, accesorios o protector solar.",
+          "El uso de chalecos salvavidas es requerido en este programa. Mismo que será proporcionado durante todo el programa",
+          "El acceso con cámaras y celulares no está permitido durante el programa con delfines. Ofrecemos fotos profesionales para comprar después de tu experiencia.",
+          "Este programa no es adecuada para mujeres embarazadas. Si alguien en tu grupo está embarazada, deben reservar un Nado con Delfines Privado."
+        ]
+      },
+      {
+        "title": "¿Qué debo llevar?",
+        "description": "",
+        "items": [
+          "Traje de baño",
+          "Ropa con protección solar",
+          "Dinero extra para souvernirs y fotos"
+        ]
+      },
+      {
+        "title": "Descubre el Mundo de los Delfines",
+        "texto": [
+          "Hay pocas criaturas tan fascinantes como los delfines. Elegantes, sociales y comunicativos, los delfines son verdaderamente sorprendentes, ¡y no hay mejor manera de aprender sobre ellos que interactuando cara a cara con ellos!",
+          "Durante tu nado con delfines en Puerto Vallarta, no solo tendrás la oportunidad de nadar con estas magníficas criaturas, ¡sino que también descubrirás todo lo que hay que saber sobre los delfines de los mejores maestros: los propios delfines!",
+          "Nuestros Especialistas en Mamíferos Marinos te guiarán a través de su maravilloso mundo y te educarán sobre las vocalizaciones únicas de los delfines, sus personalidades, patrones de alimentación y cómo socializan entre ellos y con los seres humanos.",
+          "Al mismo tiempo que aprendes, podrás disfrutar de interacciones inolvidables, permitiéndote comunicarte, abrazar, bailar y experimentar la inteligencia excepcional de nuestra familia de delfines nariz de botella del Pacífico.<br />",
+          "México ofrece varios destinos para nadar con delfines, incluyendo Puerto Vallarta y Cabo. En el Centro de Delfines de Vallarta Adventures, puedes disfrutar de una experiencia de nado con delfines que es segura y responsable en Puerto Vallarta, mientras que nuestra ubicación hermana en Cabo también ofrece programas similares."
+        ]
+      },
+
+      {
+        "title": "Conecta, Aprende y Nada con Delfines",
+        "texto": [
+          "¡No hay nada en el mundo como nadar con delfines! Estos mamíferos marinos juguetones y majestuosos inspiran asombro en personas de todas las edades.",
+          "Desde el momento en el que entras a su hábitat tendrás la oportunidad de establecer una conexión cercana con nuestros delfines. Esta experiencia íntima se lleva a cabo en grupos pequeños, asegurando muchas oportunidades de interacción. Disfrutarás de momentos fascinantes jugando con ellos, y estamos seguros de que las actividades junto a estas increíbles criaturas perdurarán en tu memoria durante muchos años. ¡Nadar con delfines en Puerto Vallarta será sin duda una de las mejores actividades de tus vacaciones!",
+          "Si eres un apasionado de los mamíferos marinos y quieres vivir una experiencia aún más completa, te recomendamos visitar nuestro programa de Entrenador por Un Día, una actividad única en Puerto Vallarta donde no solo convivirás con delfines, sino también con lobos marinos, aprendiendo todo sobre su cuidado y comportamiento."
+        ]
+      },
+      {
+          "title": "El Bienestar de los Delfines es nuestra Máxima Prioridad",
+          "texto": [
+              "En Vallarta Adventures estamos totalmente comprometidos con el bienestar de los mamíferos marinos que están bajo nuestro cuidado.",
+              "Nuestro Centro de Mamíferos Marinos continuamente se somete a rigurosos procesos de revisión, auditoría y certificación realizados por destacadas entidades independientes enfocadas en bienestar animal. Entre ellas, nos enorgullece contar con la Certificación Humane™ otorgada por la ONG American Humane, un testimonio de nuestra dedicación y compromiso con el bienestar de nuestros delfines.",
+              "Además, nuestro equipo de expertos participa activamente con las instituciones internacionales más reconocidas en este campo, incluyendo Alliance e IMATA. Nuestra participación en estos grupos científicos asegura que no solo cumplimos, sino que superamos de manera integral los más altos estándares de cuidado animal.",
+              "Para obtener mayor información sobre nuestra dedicación al cuidado animal, visita nuestra página de Sustentabilidad y Conservación."
+          ]
+      },
+
+      {
+          "title": "Nuestro Compromiso con el Rescate, Rehabilitación y Liberación a la Vida Silvestre",
+          "texto": [
+              "Vallarta Adventures mantiene una estrecha relación de colaboración con agencias locales, estatales y federales, así como con redes de varamientos, garantizando una disposición las 24 horas, los 7 días de la semana, para respuestas de emergencia.",
+              "Compuesto por experimentados rescatistas de animales, veterinarios y especialistas, nuestro equipo se dedica a ayudar a animales en situación de peligro, ya sea por enfermedad, heridas o crías que han quedado huérfanas. Esto incluye la tarea crucial de desenredar mamíferos marinos de redes de pesca y otros objetos que ponen en riesgo su vida. Nuestro objetivo final es rehabilitar a estos animales para una reintroducción exitosa en sus hábitats naturales.",
+              "Para obtener más información sobre nuestros programas de rescate, visite nuestra sección de Sustentabilidad y Conservación."
+          ]
+      }
+    ],
+        "aventura-extrema-con-tirolesas": [
+       {
+        "title": "Información Esencial",
+        "items": [
+          "Ten en cuenta que debes llegar al punto de registro (Check-in) al menos 45 minutos antes de la salida.",
+          "Peso máximo: 118 kg.",
+          "Edad mínima: 8 años.",
+          "Estatura mínima: 1,2 m. Sin excepciones, todos los niños serán medidos a su llegada.",
+          "El precio de niños aplica para edades de 8 a 11 años. El precio de adultos aplica para 12 años en adelante.",
+          "Los conductores del vehículo Polaris deben tener al menos 18 años de edad y presentar una licencia de conducir válida. No se admiten permisos de conducir.",
+          "Se cobrará un seguro básico contra daños y colisiones, por vehículo de $50 USD en el check-in (NO REEMBOLSABLE).",
+          "Por razones de seguridad, no se permite el uso de cámaras, incluyendo teléfonos celulares, GoPro y drones.",
+          "Este tour no es apto para mujeres embarazadas y personas con problemas de espalda, cuello, corazón, equilibrio o vértigo.",
+          "Los pasajeros de cruceros deben reservar a través de la página de excursiones en tierra de su línea de cruceros. Las opciones de horario presentadas en este sitio pueden entrar en conflicto con los horarios de llegada o salida del crucero."
+        ]
+      },
+      {
+        "title": "¿Qué debo llevar?",
+        "description": "",
+        "items": [
+          "Zapatos cerrados",
+          "Ropa deportiva cómoda",
+          "Toalla, cambio de ropa y un par adicional de zapatos",
+          "Repelente de insectos",
+          "Dinero extra para souvenirs y fotos"
+        ]
+      },
+      {
+        "title": "MUCHO MÁS QUE TIROLESAS",
+        "texto": [
+          "En Extreme Adventure las tirolesas son solo el comienzo; esta multi-actividad de adrenalina te sorprenderá con una enorme variedad de emocionantes aventuras. Cada una está diseñada para sacar tu espíritu aventurero e sumergirte completamente en la belleza de la exuberante selva tropical de la Sierra Madre.",
+          "Desciende en rapel desde una plataforma a 15 mt. de altura entre las copas de los árboles, y atrévete a desafiar tus límites en nuestro Péndulo: un salto al vacío desde 9 metros de altura que desafiará tu miedo a las alturas.",
+          "Súbete a un poderoso vehículo Polaris® RZR, atraviesa nuestro icónico puente colgante Wildest Bridge y explora terrenos selváticos, arroyos y caminos de terracería. Esta experiencia todoterreno garantiza muchas risas, emociones y recuerdos llenos de adrenalina, lo cual la hace perfecta para grupos de amigos o familias.",
+          "No hay mejor forma de refrescarse en la selva que lanzándote desde lo alto en nuestro impactante tobogán acuático. Con curvas y vueltas, te llenarás de emoción al deslizarte por este recorrido a alta velocidad que te prepara para la siguiente gran aventura.",
+          "Desde las más impresionantes tirolesas en Puerto Vallarta y nuestro emocionante salto en péndulo hasta la desafiante ruta de ATV y increíble simulador de paracaidismo, Extreme Adventure tiene mucho que ofrecer.",
+          "Con una calificación perfecta de 5 estrellas en TripAdvisor y cerca de 2,000 comentarios, ¡podemos asegurarte que te espera la aventura de tu vida! ¡Reserva ahora para confirmar tu lugar!"
+        ]
+      },
+
+      {
+        "title": "DIVERSIÓN PARA TODA LA FAMILIA",
+        "texto": [
+          "Con retos adaptados a cada edad, condición física y nivel de habilidad, Extreme Adventure garantiza emoción para todos los miembros de la familia. Cada uno puede personalizar su experiencia participando en las actividades que prefiera asegurando que todos vivirán un día inolvidable.",
+          "Desde los jóvenes aventureros de 8 años hasta los experimentados amantes de las emociones, nuestro circuito está pensado para todos, lo cual lo convierte en una de las mejores actividades para toda la familia en Puerto Vallarta.",
+          "Si tu familia adora las emociones fuertes, ¡te recomendamos también visitar el parque acuático Ocean Mania!",
+          "¿Amas las tirolesas en Puerto Vallarta, México? Súbele al nivel de adrenalina con nuestro Outdoor Adventure con una combinación diferente de emocionantes actividades. O diviértete en Las Caletas , una hermosa reserva natural con actividades aptas para todas las edades, donde incluso los miembros más jóvenes de la familia podrán disfrutar."
+        ]
+      },
+      {
+          "title": "EL TOUR DE TIROLESAS MÁS SEGURO DE PUERTO VALLARTA",
+          "texto": [
+              "En Vallarta Adventures, tu seguridad es nuestra máxima prioridad. En cada aventura de tirolesa, serás acompañado por nuestros expertos guías bilingües, todos con más de 200 horas de formación en operaciones y protocolos de seguridad.",
+              "Nos enorgullece contar con sistemas de tirolesa con doble línea de seguridad y cumplir con los estándares internacionales de ACCT (Association for Challenge Course Technology), asegurando que nuestra experiencia sea la más segura en Puerto Vallarta.",
+              "Nuestro equipo se somete a inspecciones y mantenimiento exhaustivo para que tú solo tengas que preocuparte de divertirte. ¡Reserva tu aventura y prepárate para la acción!"
+          ]
+      },
+
+      {
+          "title": "UN PARQUE NATURAL LLENO DE AVENTURAS",
+          "texto": [
+              "Este día de emociones se lleva a cabo en una espectacular reserva natural ubicada en medio de las montañas de la Sierra Madre, haciendo de nuestro parque de aventuras un santuario protegido para miles de especies nativas de flora y fauna.",
+              "Como parte de nuestro compromiso con el medio ambiente, todos nuestros visitantes participan al sembrar una semilla con su nombre en nuestro vivero. Estas semillas, más adelante se plantan en los programas de reforestación que continuamente realizamos. ¡Haz parte de esta iniciativa mientras vives uno de los días más emocionantes de tu vida en Extreme Adventure!"
+          ]
+      }
+    ],
+
+    "outdoor-adventure-con-tirolesas": [
+       {
+        "title": "Información Esencial",
+        "items": [
+          "Ten en cuenta que debes llegar a la oficina de Check-in de Vallarta Adventures al menos 45 minutos antes de la salida.",
+          "Peso máximo: 118 kg.",
+          "Edad mínima: 8 años.",
+          "Por seguridad, la estatura y el peso de todos los participantes serán verificados al registrarse. Estatura mínima: 1.20 m (4 pies).",
+          "El precio de niños aplica para edades de 8 a 11 años. El precio de adultos aplica para edades de 12 años en adelante.",
+          "Por razones de seguridad, no se permite el uso de cámaras, incluyendo teléfonos celulares, GoPro y drones.",
+          "Este tour no es apto para mujeres embarazadas y personas con problemas de espalda, cuello, corazón, equilibrio o vértigo.",
+          "Los pasajeros de cruceros deben reservar a través de la página de excursiones en tierra de su línea de cruceros. Las opciones de horario presentadas en este sitio pueden entrar en conflicto con los horarios de llegada o salida del crucero."
+        ]
+      },
+      {
+        "title": "¿Qué debo llevar?",
+        "description": "",
+        "items": [
+          "Zapatos cerrados",
+          "Ropa deportiva cómoda",
+          "Cambio de ropa y un par adicional de zapatos",
+          "Suéter ligero",
+          "Repelente de insectos y Protector solar",
+          "Dinero extra para las tarifas del muelle, fotos y souvenirs."
+        ]
+      },
+      {
+        "title": "Prueba la Nueva Tirolesa Roller Coaster en Puerto Vallarta",
+        "texto": [
+          "Sé uno de los primeros en experimentar la NUEVA Roller Coaster Zipline, una atracción única que fusiona la sensación de vuelo a toda velocidad de una tirolesa, con las subidas, bajadas y vueltas de una montaña rusa, brindándote la máxima descarga de adrenalina en cada curva!"
+        ]
+      },
+
+      {
+        "title": "Tirolesas, Caminata, Rapel y Toboganes",
+        "texto": [
+          "Atraviesa la bahía a toda velocidad en una lancha rápida mientras admiras la cautivadora vista del mar y las montañas a lo lejos. Durante los meses de invierno, incluso puedes tener la suerte de ver ballenas jorobadas durante el recorrido.",
+          "En tierra, súbete a uno de nuestros icónicos camiones amarillos Unimog y emprende un viaje hacia el corazón de las montañas de la Sierra Madre. Al llegar a nuestro campamento base, monta una mula y comienza un tranquilo paseo hacia la cima por caminos rodeados de flora y fauna nativa.",
+          "Camina por la selva, disfruta de emocionantes tirolesas de las formas más únicas y experimenta nuestra Roller Coaster, una tirolesa que brinda la increíble sensación de una montaña rusa suspendida por cables desde los árboles. ¡Realmente es una aventura inigualable!",
+          "Desciende en rapel por una de las cascadas más espectaculares de Puerto Vallarta y pon a prueba tu miedo a las alturas mirando hacia abajo a la piscina natural donde tu guía estará esperándote. Prepárate para descender los últimos metros en una caída libre para un emocionante aterrizaje en el agua.",
+          "Para cerrar por todo lo alto y recibir una última descarga de adrenalina, ¡deslízate por el tobogán más alto de México! ¡Outdoor Adventure es definitivamente una aventura que no te puedes perder!",
+          "¿Interesado en explorar más maravillas naturales de Puerto Vallarta? Considera complementar tus vacaciones con nuestro tour a las Islas Marietas o relájate en un paseo en Velero de Lujo."
+        ]
+      },
+      {
+          "title": "Las Tirolesas Más Seguras en Puerto Vallarta",
+          "texto": [
+              "En el corazón de todas nuestras emocionantes aventuras está nuestro compromiso inquebrantable con tu seguridad. Es por eso que Vallarta Adventures es la única compañía cuyas aventuras cuentan con tirolesas con doble línea de seguridad.",
+              "Tu bienestar es nuestra principal prioridad mientras nos esforzamos por brindarte una experiencia emocionante pero segura. Nos enorgullece cumplir con los estándares internacionales de la ACCT (Association for Challenge Course Technology). Nuestro equipo, estructuras y metodologías de entrenamiento se revisan y actualizan constantemente para cumplir con las mejores prácticas."
+          ]
+      },
+
+      {
+          "title": "¿Hay restricciones?",
+          "texto": [
+              "Sí hay algunas restricciones. Por razones de seguridad, el peso máximo autorizado para participar en este tour es de 118 Kg (260 lbs).",
+              "La edad mínima para los niños es de 8 años e, independientemente de su edad, deben medir al menos 1.2 mt. de estatura.",
+              "No se permite la participación en este tour a mujeres embarazadas y a personas con antecedentes de convulsiones, vértigo, problemas cardíacos y lesiones en la espalda, rodillas y cuello.",
+              "Contáctanos para obtener más información sobre las restricciones para este tour."
+          ]
+      }
+    ]
+
+  }
+}
