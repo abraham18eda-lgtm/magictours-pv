@@ -134,7 +134,7 @@
 <script setup>
 import { ref, computed  } from 'vue'
 import Acordeon from '../components/Accordition.vue'
-import PickupCard from '../components/pickupcard.vue'
+import PickupCard from '../components/PickupCard.vue'
 import { useLocaleStore } from '../stores/locale'
 
 defineProps({
