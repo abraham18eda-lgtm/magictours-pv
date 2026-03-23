@@ -136,7 +136,7 @@
     import api from '../plugins/axios'
     import axios from 'axios';
     // import Metas from '../components/Metas.vue'
-    import ElegantSlider from "../components/ElegantSlider.vue"
+    import ElegantSlider from "../components/ElegantSlider.vue" 
     import ctadventure from '../components/ctadventure.vue';
 
     // Elegante Slider
