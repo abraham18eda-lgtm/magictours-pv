@@ -92,7 +92,7 @@
     <BottomBar />
     <SliderBottom />
     <Footer />
-    <Tawk />
+    <!-- <Tawk /> -->
 </template>
 
 <script setup>
