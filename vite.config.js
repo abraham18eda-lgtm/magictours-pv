@@ -13,7 +13,7 @@ export default defineConfig({
       manifest: 'public/build/manifest.json',
       buildDirectory: 'build', // carpeta donde irán los assets
     }),
-  ],
+  ],base: '/',
   resolve: {
     alias: {
       '@': path.resolve(__dirname, 'resources/js'),
