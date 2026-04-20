@@ -5,7 +5,8 @@
     "scripts": {
         "build": "vite build",
         "dev": "vite",
-        "preview": "vite preview"
+        "serve": "php artisan serve",
+        "watch": "concurrently \"npm run dev\" \"php artisan serve --host=127.0.0.1 --port=8000\""
     },
     "devDependencies": {
         "@vitejs/plugin-vue": "^6.0.1",
