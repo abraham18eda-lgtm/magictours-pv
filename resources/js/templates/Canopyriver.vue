@@ -4,7 +4,7 @@
           <h1 class="text-primary text-center text-3xl font-bold mb-4 py-4 uppercase">{{ tour.title }}</h1>
     </div>
     <!-- <div class="bg-white rounded-lg shadow p-6"> -->
-    <div class="bg-white p-6">
+    <div class="bg-white p-2 lg:p-6">
     <!-- DESKTOP -->
     <div class="hidden md:grid md:grid-cols-4 gap-6">
       <!-- LEFT TABS -->

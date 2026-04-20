@@ -17,6 +17,10 @@ module.exports = {
       },
     },
     extend: {
+       fontFamily: {
+        sans: ['Inter', 'sans-serif'], 
+        heading: ['Cormorant Garamond', 'serif'], 
+      },
         keyframes: {
           slideInLeft: {
             '0%': { transform: 'translateX(-50%)', opacity: '0' },
@@ -57,6 +61,14 @@ module.exports = {
             primary: '#063971', // azul
             blue: {
                 100: '#0A65C7',
+            },
+            esmeralda: {
+                100: '#034d05', //0b7d13 brillante
+                200: '#014421',
+                300: '#046307',
+                400: '#2E8B57',
+                500: '#3CB371',
+                600: '#66CDAA',
             },
             brandBlue: {
                 100: '#0A65C7',

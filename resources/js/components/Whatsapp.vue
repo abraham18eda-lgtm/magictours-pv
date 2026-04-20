@@ -26,7 +26,7 @@ const message = computed(() => messages[localeStore.locale]);
     :href="`https://wa.me/${phone}?text=${encodeURIComponent(message)}`"
     target="_blank"
     rel="noopener noreferrer"
-    class="fixed bottom-[180px] lg:bottom-[40px] right-5 bg-green-500 hover:bg-green-600 text-white rounded-full p-0 shadow-lg transition-all duration-300 flex items-center justify-center z-50"
+    class="fixed bottom-[100px] lg:bottom-[40px] right-5 bg-green-500 hover:bg-green-600 text-white rounded-full p-0 shadow-lg transition-all duration-300 flex items-center justify-center z-50"
   >
     <!-- Ícono de WhatsApp -->
     <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24" class="w-12 h-12">

@@ -2,8 +2,8 @@ import axios from "axios";
 
 // Creamos la instancia de Axios para la API
 const api = axios.create({
-  // baseURL: 'https://www.magictourspv.com/api',
-  baseURL: 'http://localhost:8000/api',
+  baseURL: 'https://www.magictourspv.com/api',
+  // baseURL: 'http://localhost:8000/api',
   headers: {
     "Content-Type": "application/json",
     "Accept": "application/json"

@@ -38,7 +38,8 @@ class AdminTourController extends Controller
                 ['locale' => $locale],
                 [
                     'title' => $data['title'],
-                    'regular_price' => $data['regular_price']
+                    'regular_price' => $data['regular_price'],
+                    'descount_price' => $data['descount_price']
                 ]
             );
         }
@@ -46,34 +47,95 @@ class AdminTourController extends Controller
         return response()->json(['message' => 'Tour actualizado']);
     }
 
-    public function store(Request $request)
+    public function store(StoreTourRequest  $request)
     {
-        // 1. Crear tour base
-        $tour = Tour::create();
+        DB::beginTransaction();
 
-        // 2. Crear traducciones
-        foreach ($request->translations as $locale => $data) {
+        try {
+            // Subir imagen si existe
+            $imagePath = null;
+            if ($request->hasFile('image')) {
+                $imagePath = $request->file('image')->store('tours', 'public');
+            }
 
-            $translation = $tour->translations()->create([
-                'locale' => $locale,
-                'slug' => $data['slug'],
-                'title' => $data['title'],
-                'description' => $data['description'] ?? null,
-                'description_2' => $data['description_2'] ?? null,
-                'recommendations' => $data['recommendations'] ?? null,
-                'requirements' => $data['requirements'] ?? null,
-                'regular_price' => $data['regular_price'],
-                'descount_price' => $data['descount_price'] ?? null,
-                'faq' => $data['faq'] ?? null,
-                'info' => $data['info'] ?? null,
+            // Crear Tour base
+            $tour = Tour::create([
+                'image' => $imagePath,
+                'site_id' => $request->site_id,
+                'price' => $request->price,
+                'short_description' => $request->short_description,
+                'description' => $request->description,
+                'tour_active' => $request->tour_active ?? false, 
             ]);
 
-            // Aquí luego puedes guardar amenities si quieres
-        }
+            // Crear traducciones y asociar amenities
+            foreach ($request->translations as $locale => $data) {
 
-        return response()->json([
-            'message' => 'Tour creado correctamente',
-            'tour' => $tour->load('translations')
-        ]);
+                $translation = $tour->translations()->create([
+                    'locale' => $locale,
+                    'slug' => $data['slug'],
+                    'title' => $data['title'],
+                    'description' => $data['description'] ?? null,
+                    'description_2' => $data['description_2'] ?? null,
+                    'recommendations' => $data['recommendations'] ?? null,
+                    'requirements' => $data['requirements'] ?? null,
+                    'regular_price' => $data['regular_price'],
+                    'descount_price' => $data['descount_price'] ?? null,
+                    'faq' => $data['faq'] ?? null,
+                    'info' => $data['info'] ?? null,
+                ]);
+
+                // Asociar amenities si vienen
+                if (!empty($data['amenities'])) {
+                    $amenityIds = [];
+                    foreach ($data['amenities'] as $amenity) {
+                        // Crear amenity si no existe
+                        $amenityModel = TourAmenity::firstOrCreate(['name' => $amenity]);
+                        $amenityIds[] = $amenityModel->id;
+                    }
+                    $translation->amenities()->sync($amenityIds);
+                }
+            }
+
+            DB::commit();
+
+            return response()->json([
+                'message' => 'Tour creado correctamente',
+                'tour' => $tour->load('translations.amenities')
+            ], 201);
+
+        } catch (\Exception $e) {
+            DB::rollBack();
+            return response()->json([
+                'error' => 'Error al crear el tour: ' . $e->getMessage()
+            ], 500);
+        }
+        // 1. Crear tour base
+        // $tour = Tour::create();
+
+        // 2. Crear traducciones
+        // foreach ($request->translations as $locale => $data) {
+
+        //     $translation = $tour->translations()->create([
+        //         'locale' => $locale,
+        //         'slug' => $data['slug'],
+        //         'title' => $data['title'],
+        //         'description' => $data['description'] ?? null,
+        //         'description_2' => $data['description_2'] ?? null,
+        //         'recommendations' => $data['recommendations'] ?? null,
+        //         'requirements' => $data['requirements'] ?? null,
+        //         'regular_price' => $data['regular_price'],
+        //         'descount_price' => $data['descount_price'] ?? null,
+        //         'faq' => $data['faq'] ?? null,
+        //         'info' => $data['info'] ?? null,
+        //     ]);
+
+         
+        // }
+
+        // return response()->json([
+        //     'message' => 'Tour creado correctamente',
+        //     'tour' => $tour->load('translations')
+        // ]);
     }
 }

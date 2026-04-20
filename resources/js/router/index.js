@@ -1,8 +1,13 @@
 import { createRouter, createWebHistory } from 'vue-router'
+import { updateMeta } from '../meta'
 import TourList from '../components/TourList.vue'
 import TourDetail from '../components/TourDetail.vue'
 import Home from '../agency/Home.vue'
 import Dashboard from '../components/Dashboard.vue'
+import PageResolver from '../components/PageResolver.vue'
+import PrivacyPolicy from '../components/legal/PrivacyPolicy.vue'
+import CookiesPolicy from '../components/legal/CookiesPolicy.vue'
+import TermsConditions  from '../components/legal/TermsConditions.vue'
 
 const routes = [
     {
@@ -23,7 +28,26 @@ const routes = [
     component: TourDetail,
     props: route => ({ slug: route.params.slug, lang: route.params.lang || 'es' })
   },
-
+  {
+    path: '/:lang/:slug',
+    name: 'page',
+    component: PageResolver
+  },
+  {
+    path: '/privacy-policy',
+    name: 'PrivacyPolicy',
+    component: PrivacyPolicy
+  },
+  {
+    path: '/cookie-policy',
+    name: 'CookiesPolicy',
+    component: CookiesPolicy
+  },
+  {
+    path: '/terms-and-conditions',
+    name: 'TermsConditions',
+    component: TermsConditions
+  },
   {
     path: '/dashboard',
     name: 'dashboard',
@@ -39,7 +63,16 @@ const routes = [
 
 const router = createRouter({
   history: createWebHistory(),
-  routes
+  routes,
+  scrollBehavior(to, from, savedPosition) {
+    // Si hay posición guardada (botón back)
+    if (savedPosition) {
+      return savedPosition
+    }
+
+    // 🔥 Siempre ir al top en nuevas páginas
+    return { top: 0 }
+  }
 })
 
 // Antes de cada ruta: asegurarnos que localeStore esté sincronizado
@@ -53,5 +86,14 @@ router.beforeEach((to, from, next) => {
   }
   next()
 })
+
+router.afterEach((to) => {
+  const skip = ['CookiesPolicy', 'PrivacyPolicy', 'TermsConditions']
+
+  if (skip.includes(to.name)) return
+
+  updateMeta(to)
+})
+
 
 export default router

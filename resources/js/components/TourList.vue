@@ -1,9 +1,9 @@
 <template>
     <div class="container mx-auto max-w-6xl px-4 py-20">
         <div class="lg:text-center mb-8 flex justify-start items-center">
-          <div class="lg:container lg:mx-auto">
-            <h2 class="text-3xl lg:text-base text-primary font-semibold py-6 whitespace-pre-wrap text-start md:text-center">{{ $t('tours.title')}}</h2>
-            <p class="text-xl md:text-base  text-start lg:text-center sm:text-lg md:text-xl lg:text-base whitespace-pre-wrap" v-html="$t('tours.description')"></p>
+          <div class="lg:container lg:mx-auto lg:w-3/4">
+            <h2 class="font-heading text-4xl lg:text-4xl text-primary font-semibold py-6 whitespace-pre-wrap text-start md:text-center">{{ $t('tours.title')}}</h2>
+            <p class="text-xl md:text-base  text-start lg:text-center sm:text-lg md:text-xl lg:text-lg whitespace-pre-wrap" v-html="$t('tours.description')"></p>
           </div>
         </div>
 
@@ -94,7 +94,7 @@
                         <span
                             v-for="(amenity, index) in tour.amenities.slice(0, 3)"
                             :key="index"
-                            class="mr-4 lg:mr-5 text-sm md:text-sm lg:text-[12px] lg:py-0 uppercase"
+                            class="text-esmeralda-200 font-semibold  mr-4 lg:mr-5 text-xs md:text-sm lg:text-[12px] lg:py-0 uppercase"
                         >
                             {{ amenity }}
                         </span>
@@ -125,18 +125,20 @@
                 <div class="px-4 flex justify-between my-4 w-full h-auto">
                   <button
                       @click="viewDetails(tour)"
-                      class="border-2 border-indigo-600 text-indigo-600 px-4 py-0 lg:py-0 rounded-md hover:bg-indigo-50 transition"
+                      class="text-esmeralda-200 px-4 py-0 lg:py-0 rounded-md hover:text-brandBlue-300 transition"
                   >
-                      <span class="text-base sm:text-lg md:text-base lg:text-base">
+                      <span class="text-base sm:text-base md:text-base lg:text-base underline hover:no-underline uppercase">
                           {{ $t('cta.view_tours') }}</span>
                   </button>
                   <button
                       @click="booking.open(tour)"
                       class="bg-indigo-600 text-white px-4 py-2 rounded-md hover:bg-indigo-700 transition
-                      bg-gradient-to-r from-[#3A8DFF] to-[#00A8E8] transition-transform duration-200 
+                      bg-gradient-to-r from-[#034d05] via-[#046307] to-[#0b7d13]
+                      transition-transform duration-200 
                       active:scale-95 active:shadow-2xl">
-                      <span class=" text-base sm:text-lg md:text-base lg:text-base">{{ $t('cta.primary_book') }}</span>
-                  </button>
+                      <span class="text-sm sm:text-sm md:text-sm lg:text-sm uppercase">{{ $t('cta.primary_book') }}</span>
+                  </button>   
+                  <!-- bg-gradient-to-r from-[#3A8DFF] to-[#00A8E8] -->
                   <!-- <button @click="openForm()"
                       class="ml-4 px-6 py-3 bg-gradient-to-r from-[#3A8DFF] to-[#00A8E8] 
                         rounded-lg uppercase font-semibold text-base text-white shadow-lg 

@@ -6,7 +6,7 @@
     <div class="flex gap-2 justify-end items-center">
       <button
         @click="changeLocale('es')"
-        :class="locale === 'es' ? 'bg-blue-600 text-white' : 'bg-white text-gray-700'"
+        :class="locale === 'es' ? 'bg-esmeralda-200 text-white border-esmeralda-500' : 'bg-white text-gray-700'"
         class="px-4 py-2 rounded border"
       >
         🇲🇽 ES
@@ -14,7 +14,7 @@
 
       <button
         @click="changeLocale('en')"
-        :class="locale === 'en' ? 'bg-blue-600 text-white' : 'bg-white text-gray-700'"
+        :class="locale === 'en' ? 'bg-esmeralda-200 text-white  border-esmeralda-500' : 'bg-white text-gray-700'"
         class="px-4 py-2 rounded border"
       >
         🇺🇸 EN
@@ -27,11 +27,14 @@
         class="bg-white rounded-xl shadow p-4 flex justify-between items-center"
       >
         <div>
-          <h2 class="text-xl font-semibold text-gray-700">
+          <h2 class="text-xl font-bold text-esmeralda-100">
               {{ tour.translation.title }}
           </h2>
-          <p class="text-gray-500 mt-1">Precio: $
+          <p class="text-gray-500 mt-1">Rack: $
             {{ tour.translation.regular_price }}
+          </p>
+          <p class="text-gray-500 mt-1">Descount: $
+            {{ tour.translation.descount_price }}
           </p>
         </div>
 
@@ -67,7 +70,7 @@ const loadTours = async () => {
   error.value = "";
   try {
     const res = await api.get(`/admin/tours`);
-    // const res = await api.get("/tours");
+    console.log( "trae: ", res);
     tours.value = res.data.map(tour => {
       const translation = tour.translations.find(
         t => t.locale === locale.value

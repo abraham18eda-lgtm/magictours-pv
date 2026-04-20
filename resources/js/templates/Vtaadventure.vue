@@ -1,7 +1,7 @@
 <template>
   <div class="default-template">
      <div class="container mx-auto max-w-4xl px-4 py-10">
-        <section class="p-6">
+        <section class="p-2 lg:p-6">
             <div v-if="error" class="text-red-600 font-medium">{{ error }}</div>
             <div v-else-if="loading">Cargando tour...</div>
 

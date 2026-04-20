@@ -15,19 +15,20 @@
 
       <!-- Desktop Menu (≥1024px) -->
       <nav class="hidden lg:flex space-x-6 items-center">
-        <a href="#" class="text-gray-700 text-lg font-semibold hover:text-blue-600 uppercase">{{ $t('header.home') }}</a>
-        <button @click="$emit('open-drawer')" class="text-gray-700 text-lg font-semibold hover:text-blue-600 uppercase">
+        <a href="#" class="text-gray-700 font-bold text-lg hover:text-blue-600 uppercase">{{ $t('header.home') }}</a>
+        <button @click="$emit('open-drawer')" class="text-gray-700 font-bold text-lg hover:text-blue-600 uppercase">
           {{ $t('header.tours') }}
         </button>
-        <a href="#" class="text-gray-700 text-lg font-semibold hover:text-blue-600 uppercase">{{ $t('header.about') }}</a>
+        <a href="#" class="text-gray-700 text-lg font-bold hover:text-blue-600 uppercase">{{ $t('header.about') }}</a>
         <button @click="openForm()"
             class="ml-4 px-6 py-3 
-              bg-gradient-to-r from-[#3A8DFF] to-[#00A8E8] 
+              bg-gradient-to-r from-[#034d05] via-[#046307] to-[#0b7d13]
               rounded-lg uppercase font-semibold text-lg
               text-white shadow-lg transition-transform duration-200
               active:scale-95 active:shadow-2xl">
           {{ $t('cta.primary_book') }}
-        </button>
+        </button>   
+        <!-- bg-gradient-to-r from-[#3A8DFF] to-[#00A8E8]  -->
       </nav>
 
 

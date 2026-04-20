@@ -115,7 +115,9 @@ watch(
 </script> -->
 
 <template>
-  <div v-if="loading">Cargando tour...</div>
+  <div v-if="loading" class="container mx-auto">
+    <span class="text-center">Cargando tour...</span>
+  </div>
   <div v-else-if="error">{{ error }}</div>
   <component v-else :is="TemplateComponent" :tour="tour" />
 </template>
@@ -174,7 +176,7 @@ const fetchTour = async () => {
     const res = await api.get(`/api/tours/${slug}?lang=${lang}`)
     tour.value = res.data
     // alert('Tour recibido: ' + JSON.stringify(tour.value, null, 2))
-    console.log('Tour recibido:', tour.value)
+    // console.log('Tour recibido:', tour.value)
 
     // Obtener loader seguro
     const templateKey = tour.value.template?.toLowerCase() || 'default'
@@ -188,7 +190,7 @@ const fetchTour = async () => {
       TemplateComponent.value = markRaw(module.default)
     }
 
-    console.log('Template cargado:', templateKey)
+    // console.log('Template cargado:', templateKey)
 
     // Inicializar Tawk después de unos segundos
     setTimeout(() => {

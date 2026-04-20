@@ -28,7 +28,9 @@ class TourController extends Controller
         $locale = $request->query('lang', 'en'); // Idioma por defecto
 
         // Traer tours con traducciones y sus amenities
-        $tours = Tour::with(['translations.amenities'])->get();
+        $tours = Tour::with(['translations.amenities'])
+        ->where('tour_active', 1)
+        ->get();
         $tours = $tours->map(function ($tour) use ($locale) {
             // Selecciona la traducción del idioma solicitado o EN por defecto
             $translation = $tour->translations->firstWhere('locale', $locale)

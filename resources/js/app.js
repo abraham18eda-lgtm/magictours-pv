@@ -2,6 +2,8 @@
 import { createApp } from 'vue';
 import { createPinia } from 'pinia'
 import { createI18n } from 'vue-i18n'
+import { createHead } from '@vueuse/head'
+
 import App from './agency/App.vue';
 import router from './router';
 import axios from 'axios';
@@ -12,6 +14,8 @@ import en from './lang/en.json'
 import es from './lang/es.json'
 
 import '../css/app.css';
+
+const head = createHead()
 
 axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 
@@ -43,6 +47,7 @@ async function setupApp() {
     app.use(router);
     app.use(metaPlugin , { router })
     app.use(i18n); // Registramos i18n
+    app.use(head)
     app.config.globalProperties.$axios = axios;
 
     app.mount('#app');

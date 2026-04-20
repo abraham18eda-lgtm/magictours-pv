@@ -7,7 +7,7 @@ export default defineConfig({
   plugins: [
     vue(),
     laravel({
-      input: ['resources/css/app.css', 'resources/js/app.js'],
+      input: ['resources/css/app.css', 'resources/js/app.js','resources/js/admin/app.js'],
       refresh: true,
       // Aquí le decimos al plugin exactamente dónde poner el manifest
       manifest: 'public/build/manifest.json',
@@ -25,6 +25,7 @@ export default defineConfig({
     rollupOptions: {
       input: {
         app: path.resolve(__dirname, 'resources/js/app.js'),
+         admin: path.resolve(__dirname, 'resources/js/admin/app.js'),
         style: path.resolve(__dirname, 'resources/css/app.css'),
       },
     },

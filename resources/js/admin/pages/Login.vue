@@ -86,7 +86,7 @@ const login = async () => {
   try {
     
     const res = await api.post('/admin/login', { email: email.value, password: password.value });
-    // console.log(api.defaults.baseURL + '/admin/login');
+    console.log(api.defaults.baseURL + '/admin/login');
     userStore.setToken(res.data.token);
     
     router.push({ name: 'Dashboard' }); // redirige al dashboard

@@ -11,7 +11,8 @@ class Tour extends Model
     'site_id',
     'price',
     'short_description',
-    'description'];
+    'description',
+    'tour_active'];
 
     public function translations()
     {

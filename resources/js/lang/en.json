@@ -1,4 +1,21 @@
 {
+  "seo": {
+    "legal": {
+      "privacy" : {
+        "title": "Privacy Policy | MagicToursPV - Personal Data Protection",
+        "description": "Learn how MagicToursPV protects your personal data. Read our privacy policy in compliance with applicable data protection laws."
+      }, 
+      "terms" : {
+        "title": "Terms and Conditions | MagicToursPV - Puerto Vallarta Tours Booking",
+        "description": "Read MagicToursPV terms and conditions. Learn about bookings, payments, cancellations, and responsibilities for tours in Puerto Vallarta."
+      },
+      "cookies" : {
+        "title": "Cookie Policy | MagicToursPV - Use of Cookies",
+        "description": "Read Magic Tours PV cookie policy. Learn how we use cookies to improve your browsing experience on our website."
+      }
+    }
+  },
+
   "header": {
     "home": "Home",
     "tours": "Tours",
@@ -128,6 +145,15 @@
         "title": ""
     },
 
+    "explore" : {
+      "title": "Explore",
+      "legal": {
+        "privacy" : "Privacy Policy",
+        "cookie" : "Cookie Policy",
+        "terms" : "Terms & Conditions"
+      }
+    },
+
     "newsletter": {
         "title": "Newsletter",
         "description": "Subscribe to our newsletter for exclusive offers and updates",
@@ -139,6 +165,23 @@
     "signature": {
         "title" :"MagicTourspv. All rights reserved"
     }
+  },
+
+  "legal": {
+
+    "terms": {
+      "title": "Terms and Conditions",
+      "description": "By accessing and using magictourspv.com, you agree to the following terms and conditions.<br /><br /><h3 class='uppercase'><strong>1. Services</strong></h3><br />MagicToursPV promotion, intermediation, and/or sale of tours, activities, and travel experiences. <br /> <br /><h3 class='uppercase'><strong>2. Bookings</strong></h3> <ul class='list-disc mx-10'><li>All bookings are subject to availability.</li><li>Customers must provide accurate and complete information.</li><li>Confirmation will be sent via email or agreed communication channel.</li><br /> </ul> <h3 class='uppercase'><strong>3. Payments</strong></h3> <ul class='list-disc mx-10'><li>Prices may be listed in MXN or USD.</li> <li>Payments may be processed via Stripe, PayPal, bank transfers, or other available methods.</li> <li>Prices may change without prior notice until booking is confirmed.</li></ul><br /> <h3 class='uppercase'><strong>4. Cancellations and refunds</strong></h3> <ul class='list-disc mx-10'><li>More than 48 hours: full refund.</li><li>Between 24 and 48 hours: 50% refund.</li><li>Less than 24 hours or no-show: no refund.</li></ul> <br /> Policies may vary depending on the tour provider.<br /><br /><h3 class='uppercase'><strong>5. Liability</strong></h3>MagicToursPV acts solely as an intermediary between customers and service providers.<br /><br />We are not responsible for: <br /><br /><ul class='list-disc mx-10'><li>Accidents</li> <li>Losses</li> <li>Delays</li> <li>Operational changes</li> <li>Events beyond our control</li></ul> <br />Service responsibility lies with the provider.<br /><br /><h3 class='uppercase'><strong>6. Weather and force majeure</strong></h3> Activities may be modified or rescheduled due to weather or external conditions.<br /><br /><h3 class='uppercase'><strong>7. Website use</strong></h3>Users agree to use the website lawfully.<br /><br /><h3 class='uppercase'><strong>8. Intellectual property</strong></h3> All website content is owned by MagicToursPV.<br /><br /><h3 class='uppercase'><strong>9. Data protection</strong></h3> Data processing is governed by our Privacy Policy.<br /><br /><h3 class='uppercase'><strong>10. Governing law</strong></h3> These terms are governed by the laws of Mexico.<br /><br /><h3 class='uppercase'><strong>11. Changes</strong></h3> We reserve the right to update these terms at any time. <br /> <br />Last updated: 19/04/2026 " 
+    },
+     "privacy": {
+      "title": "Privacy Policy",
+      "description": "In accordance with applicable data protection laws, Magic Tours PV (\"the Controller\"), located in Puerto Vallarta, Jalisco, Mexico, provides this Privacy Policy.<br /><br /> <h3 class='uppercase'><strong>Personal data collected</strong></h3> We may collect the following personal data:<br /><br /><ul class='list-disc mx-10'><li>Full name</li><li>Email address</li><li>Phone number</li><li>Booking-related information</li><li>Billing information (if required)</li></ul><br/><strong>Purpose of data processing</strong> <br /> Your data is used to:<br/> <br/><ul class='list-disc mx-10'><li>Manage and confirm bookings</li><li>Contact you before, during, and after services</li><li>Provide customer support</li><li>Send booking-related information</li><li>Improve our services</li></ul> <br />We may also use your data for marketing purposes. You can opt out at any time by contacting us. <br/><br /><strong>Data sharing</strong> <br /> Your data may be shared with tour operators and service providers when necessary. <strong>We do not sell personal data.</strong><br /><br /><strong>ARCO rights equivalent </strong> <br />You may request access, correction, deletion, or objection by emailing: <a class='underline hover:no-underline' href='mailto:info@magictourspv.com'> info@magictourspv.com</a>,<br /><br /><strong>Cookies</strong><br /> We use cookies to improve user experience. See our Cookie Policy for details.<br /><br /><strong>Data security</strong> <br />We implement security measures to protect your data.<br /><br /><strong>Changes</strong><br />This policy may be updated at any time.<br /><br /><strong>Contact</strong><br /> <a class='underline hover:no-underline' href='mailto:info@magictourspv.com' > info@magictourspv.com</a> <br /></br />Last updated: 19/04/2026 <br /><br />" 
+    },
+    "cookies": {
+      "title": "Cookie Policy",
+      "description": "At magictourspv.com, we use cookies to improve user experience. <br /> <br /><h3 class='uppercase'><strong>¿Qué son las cookies?</strong></h3>Cookies are small files stored on your device when visiting a website.<br /><br /><h3 class='uppercase'><strong>Types of cookies</strong></h3> <ul class='list-disc mx-10'><li><strong>Essential:</strong> required for basic functionality</li><li><strong>Analytics:</strong> to understand website usage (Google Analytics)</li><li><strong>Marketing:</strong> for personalized advertising (Meta Pixel)</li></ul><br /> <h3 class='uppercase'><strong>Third-party cookies</strong></h3>We may use third-party services that collect browsing data.<br /><br /><h3 class='uppercase'><strong>Managing cookies</strong></h3> You can configure your browser to accept or reject cookies. <br /><br /><h3 class='uppercase'><strong>Consent</strong></h3> By continuing to browse our website, you agree to our use of cookies.<br /><br /><h3 class='uppercase'><strong>Changes</strong></h3> We may update this policy at any time.<br /><br /> Last updated: 19/04/2026"       
+    }
+
   },
 
   "tours_detail": {

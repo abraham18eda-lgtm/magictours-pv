@@ -39,7 +39,7 @@
     <button @click="prev" class="nav left-4">←</button>
     <button @click="next" class="nav right-4">→</button>
   </div>
-  <div class="flex items-center justify-center my-16">
+  <div class="flex items-center justify-center my-16 lg:my-20">
       <button @click="openForm()"
             class="ml-4 px-6 py-3 
               bg-gradient-to-r from-[#3A8DFF] to-[#00A8E8] 

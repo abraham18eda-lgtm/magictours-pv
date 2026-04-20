@@ -35,6 +35,13 @@
         class="w-full border p-2 mb-4"
       />
 
+      <input
+        v-model="form[activeTab].descount_price"
+        type="number"
+        placeholder="Precio con descuento"
+        class="w-full border p-2 mb-4"
+      />
+
       <button
         @click="saveTour"
         class="bg-blue-600 text-white px-4 py-2 rounded"
@@ -56,8 +63,8 @@ const tourId = route.params.id;
 const activeTab = ref("es");
 
 const form = ref({
-  es: { title: "", regular_price: "" },
-  en: { title: "", regular_price: "" }
+  es: { title: "", regular_price: "", descount_price: "" },
+  en: { title: "", regular_price: "", descount_price: "" }
 });
 
 const tabClass = (tab) =>
@@ -73,7 +80,8 @@ const loadTour = async () => {
       if (form.value[t.locale]) {
         form.value[t.locale] = {
           title: t.title,
-          regular_price: t.regular_price
+          regular_price: t.regular_price,
+          descount_price: t.descount_price
         };
       }
     });

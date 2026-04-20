@@ -1,4 +1,21 @@
 {
+  "seo": {
+    "legal": {
+      "privacy" : {
+        "title": "Aviso de Privacidad | MagicToursPV - Protección de Datos Personales",
+        "description": "Conoce cómo MagicToursPV protege tus datos personales. Consulta nuestro aviso de privacidad conforme a la ley en México."
+      }, 
+      "terms" : {
+        "title": "Términos y Condiciones | MagicToursPV - Reservas de Tours en Puerto Vallartas",
+        "description": "Consulta los términos y condiciones de MagicToursPV. Información sobre reservas, pagos, cancelaciones y responsabilidades en nuestros tours en Puerto Vallarta."
+      },
+      "cookies" : {
+        "title": "Política de Cookies | MagicToursPV - Uso de Cookies",
+        "description": "Consulta la política de cookies de MagicToursPV. Conoce cómo utilizamos cookies para mejorar tu experiencia en nuestro sitio web."
+      }
+    }
+  },
+
   "header": {
     "home": "Inicio",
     "tours": "Tours",
@@ -30,7 +47,7 @@
 
   "tours" : {
     "description": "Explora lo mejor que tenemos para ofrecer. Cada uno de nuestros tours ha sido cuidadosamente seleccionado para brindarte experiencias únicas que te dejarán recuerdos inolvidables. \n<strong>¡Haz clic y comienza tu próxima aventura con nosotros!</strong>",
-    "title": "Nuestras Recomendaciones de  Tours Favoritos",
+    "title": "Recomendaciones de  Tours Favoritos",
      "placeholder": "Descubre nuestros tours exclusivos",
 
      "book" : {
@@ -126,6 +143,15 @@
         "title": ""
     },
 
+    "explore" : {
+      "title": "Explore",
+      "legal": {
+        "privacy" : "Aviso de Privacidad",
+        "cookie" : "Política de Cookies",
+        "terms" : "Términos y Condiciones"
+      }
+    },
+
     "newsletter": {
         "title": "Newsletter",
         "description": "Suscríbete para recibir promociones y novedades.",
@@ -139,6 +165,21 @@
     }
   },
 
+  "legal": {
+     "terms": {
+      "title": "Términos y Condiciones",
+      "description": "Al acceder y utilizar el sitio web magictourspv.com, usted acepta los presentes términos y condiciones.<br /><br /><h3 class='uppercase'><strong>1. Servicios</strong></h3><br />MagicToursPV ofrece la promoción, intermediación y/o comercialización de tours, actividades y experiencias turísticas.<br /> <br /><h3 class='uppercase'><strong>2. Reservaciones</strong></h3> <ul class='list-disc mx-10'><li>Todas las reservaciones están sujetas a disponibilidad.</li><li>El cliente debe proporcionar información veraz y completa.</li><li>La confirmación será enviada por correo electrónico o medio acordado.</li><br /> </ul> <h3 class='uppercase'><strong>3. Pagos</strong></h3> <ul class='list-disc mx-10'><li>Los precios pueden estar expresados en MXN o USD.</li> <li>Los pagos pueden realizarse mediante Stripe, PayPal, transferencias u otros métodos disponibles.</li> <li>Los precios pueden cambiar sin previo aviso hasta confirmar la reserva.</li></ul><br /> <h3 class='uppercase'><strong>4. Cancelaciones y reembolsos</strong></h3> <ul class='list-disc mx-10'><li>Más de 48 horas antes: reembolso completo.</li><li>Entre 24 y 48 horas: reembolso del 50%.</li><li>Menos de 24 horas o no presentación: sin reembolso.</li></ul> <br /> Estas condiciones pueden variar dependiendo del proveedor del tour.<br /><br /><h3 class='uppercase'><strong>5. Responsabilidad</strong></h3>MagicToursPV actúa únicamente como intermediario entre el cliente y los proveedores de servicios turísticos.<br /><br />No nos hacemos responsables por: <br /><br /><ul class='list-disc mx-10'><li>Accidentes</li> <li>Pérdidas</li> <li>Retrasos</li> <li>Cambios operativos</li> <li>Situaciones fuera de nuestro control</li></ul> <br />La responsabilidad del servicio recae directamente en el proveedor.<br /><br /><h3 class='uppercase'><strong>6. Cambios por clima o fuerza mayor</strong></h3> Las actividades pueden modificarse o reprogramarse por condiciones climáticas o causas externas.<br /><br /><h3 class='uppercase'><strong>7. Uso del sitio</strong></h3>El usuario se compromete a utilizar el sitio de manera legal y adecuada.<br /><br /><h3 class='uppercase'><strong>8. Propiedad intelectual</strong></h3> Todo el contenido del sitio es propiedad de MagicToursPV.<br /><br /><h3 class='uppercase'><strong>9. Protección de datos</strong></h3> El tratamiento de datos se rige conforme a nuestro Aviso de Privacidad.<br /><br /><h3 class='uppercase'><strong>10. Legislación aplicable</strong></h3> Estos términos se rigen por las leyes de México.<br /><br /><h3 class='uppercase'><strong>11. Modificaciones</strong></h3> Nos reservamos el derecho de modificar estos términos en cualquier momento.<br /> <br />Última actualización: 19/04/2026 " 
+    },
+     "privacy": {
+      "title": "Aviso de Privacidad",
+      "description": "En cumplimiento con la Ley Federal de Protección de Datos Personales en Posesión de los Particulares, Magic Tours PV (en adelante, “el Responsable”), con domicilio en Puerto Vallarta, Jalisco, México, pone a su disposición el presente Aviso de Privacidad.<br /><br /> <strong>Datos personales que recabamos</strong> <br />Para la prestación de nuestros servicios turísticos, podremos recabar los siguientes datos personales:<br /><br /><ul><li>Nombre completo</li><li>Correo electrónico</li><li>Número telefónico</li><li>Información necesaria para la reservación de tours y experiencias</li><li>Datos de facturación (en caso de ser requeridos)</li></ul><br/><strong>Finalidades del tratamiento de datos personales</strong> <br /> Los datos personales recabados serán utilizados para las siguientes finalidades:<br/> <br/><ul><li>Gestionar y confirmar reservaciones de tours y experiencias</li><li>Contactar al cliente antes, durante y después del servicio</li><li></li>Brindar atención al cliente y soporte<li></li><li>Enviar información relevante relacionada con su reservación</li><li>Mejorar la calidad de nuestros servicios y experiencia del usuario</li></ul> <br />De manera adicional, sus datos podrán ser utilizados para fines de marketing, promociones o envío de información comercial. Usted puede solicitar en cualquier momento dejar de recibir estas comunicaciones enviando un correo a: <a class='underline hover:no-underline' href='mailto:info@magictourspv.com'> info@magictourspv.com</a> <br/><br /><strong>Transferencia de datos personales</strong> <br /> Sus datos personales podrán ser compartidos únicamente cuando sea necesario para la correcta prestación del servicio, por ejemplo, con operadores turísticos, guías o proveedores relacionados con la experiencia contratada. \n <strong>En ningún caso se comercializarán sus datos personales.</strong><br /><br /><strong>Derechos ARCO </strong> <br />Usted tiene derecho a acceder, rectificar, cancelar u oponerse al tratamiento de sus datos personales. Para ejercer estos derechos, deberá enviar una solicitud al correo electrónico: <a class='underline hover:no-underline' href='mailto:info@magictourspv.com'> info@magictourspv.com</a>, indicando: <br /> </br><ul> <li>Nombre completo</li><li>Derecho que desea ejercer</li><li>Descripción clara de la solicitud</li></ul> <br /><strong>Uso de cookies y tecnologías similares</strong><br /> Nuestro sitio web utiliza cookies y tecnologías similares para mejorar la experiencia del usuario. Para más información, consulte nuestra Política de Cookies.<br /><br /><strong>Seguridad de la información</strong> <br />Implementamos medidas de seguridad administrativas, técnicas y físicas para proteger sus datos personales contra daño, pérdida, alteración o acceso no autorizado.<br /><br /><strong>Cambios al aviso de privacidad</strong><br />Nos reservamos el derecho de realizar modificaciones en cualquier momento. Los cambios serán publicados en nuestro sitio web: magictourspv.com.<br /><br /><strong>Contacto</strong><br /> Si tiene dudas sobre este aviso de privacidad o el manejo de sus datos personales, puede contactarnos en: <a class='underline hover:no-underline' href='mailto:info@magictourspv.com' > info@magictourspv.com </a>" 
+    },
+    "cookies": {
+      "title": "Política de Cookies",
+      "description": "En magictourspv.com utilizamos cookies para mejorar la experiencia del usuario. <br /> <br /><h3 class='uppercase'><strong>¿Qué son las cookies?</strong></h3>Son archivos que se almacenan en su dispositivo al navegar en un sitio web.<br /><br /><h3 class='uppercase'><strong>Tipos de cookies</strong></h3> <ul class='list-disc mx-10'><li><strong>Esenciales:</strong> necesarias para el funcionamiento del sitio.</li><li><strong>Analíticas:</strong> para entender el uso del sitio (Google Analytics)</li><li><strong>Marketing:</strong> para publicidad personalizada (Meta Pixel)</li></ul><br /> <h3 class='uppercase'><strong>Cookies de terceros</strong></h3>Podemos utilizar servicios externos que recopilan datos de navegación.<br /><br /><h3 class='uppercase'><strong>Gestión de cookies</strong></h3>Puede configurar su navegador para aceptar o rechazar cookies.<br /><br /><h3 class='uppercase'><strong>Consentimiento</strong></h3> Al navegar en nuestro sitio, usted acepta el uso de cookies.<br /><br /><h3 class='uppercase'><strong>Cambios</strong></h3> Podemos actualizar esta política en cualquier momento.<br /><br /> Última actualización: 19/04/2026"        
+    }
+  },
+  
   "tours_detail": {
     "include": {
         "title": "QUÉ ESTÁ INCLUIDO"

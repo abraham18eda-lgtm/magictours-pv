@@ -1,23 +1,27 @@
 import { t } from './lang'
+// import { i18n } from './lang'
 
 export function updateMeta(route) {
-  if (!route.name) return
+  if (!route?.name) return
 
-  const name = route.name.toLowerCase()
+  const name = String(route.name).toLowerCase()
+
   const title = t(`routes.${name}.title`)
   const description = t(`routes.${name}.description`)
 
-  if (title) document.title = title
+  if (title && title !== `routes.${name}.title`) {
+    document.title = title
+  }
 
-  // Actualiza meta description
   let metaTag = document.querySelector('meta[name="description"]')
-  if (metaTag) metaTag.remove()
 
-  if (description) {
+  if (!metaTag) {
     metaTag = document.createElement('meta')
-    metaTag.name = 'description'
-    metaTag.content = description
+    metaTag.setAttribute('name', 'description')
     document.head.appendChild(metaTag)
   }
-}
 
+  if (description && description !== `routes.${name}.description`) {
+    metaTag.setAttribute('content', description)
+  }
+}

@@ -2,7 +2,7 @@
     <Carousel />
     <div class="main">
         <div class="description w-full text-center py-20 px-4 md:px-0">
-            <div class="md:container md:mx-auto md:w-5/6">
+            <div class="md:container md:mx-auto md:w-6/7">
                 <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
                      <div class="order-2 lg:order-1 animate-on-scroll animate-slideInLeft">
                         <img
@@ -12,8 +12,8 @@
                         />
                     </div>
                     <div class="order-1 lg:order-2 animate-on-scroll animate-slideInRight lg:m-2">
-                    <h3 class="text-3xl text-primary font-bold mb-5">{{ $t('bloque_1.title') }}</h3>
-                    <p class="text-xl md:text-base text-justify lg:text-start sm:text-lg md:text-base" v-html="$t('bloque_1.description')"></p>
+                    <h1 class="font-heading text-4xl text-primary font-bold mb-5">{{ $t('bloque_1.title') }}</h1>
+                    <p class="text-xl md:text-base text-justify lg:text-start sm:text-lg md:text-lg" v-html="$t('bloque_1.description')"></p>
                     </div>
                 </div>
                 <!-- <div class="flex justify-between items-center text-black">
@@ -29,50 +29,50 @@
         </div>
         
         <div class="services bg-gradient-to-r from-[#3A8DFF] to-[#00A8E8] py-16">
-    <div class="container mx-auto w-4/5 text-center">
-        <h2 class="text-3xl sm:text-4xl font-extrabold text-white 
-           drop-shadow-2xl mb-12">{{ $t('services.title')}}</h2>
-        <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
-            
-            <!-- Tarjeta 1 -->
-            <div class="min-h-[200px] bg-white rounded-xl p-8 flex flex-col items-center justify-center
-                        shadow-lg hover:shadow-2xl transition-all duration-300 
-                        transform hover:-translate-y-2 hover:rotate-1 
-                        active:-translate-y-4 active:rotate-2 cursor-pointer">
-                <img src="https://es.magictourspv.com/storage/icons/quality-service.png"
-                     class="w-14 filter" 
-                     style="filter: invert(31%) sepia(98%) saturate(3716%) hue-rotate(197deg) brightness(97%) contrast(92%);"
-                     alt="" />
-                <span class="text-primary text-xl md:text-base font-semibold">{{ $t('services.list.1')}}</span>
-            </div>
+            <div class="container mx-auto w-4/5 text-center">
+                <h2 class="text-3xl sm:text-4xl font-extrabold text-white 
+                drop-shadow-2xl mb-12">{{ $t('services.title')}}</h2>
+                <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+                    
+                    <!-- Tarjeta 1 -->
+                    <div class="min-h-[200px] bg-white rounded-xl p-6 flex flex-col items-center justify-center
+                                shadow-lg hover:shadow-2xl transition-all duration-300 
+                                transform hover:-translate-y-2 hover:rotate-1 
+                                active:-translate-y-4 active:rotate-2 cursor-pointer">
+                        <img src="https://es.magictourspv.com/storage/icons/quality-service.png"
+                            class="w-14 filter" 
+                            style="filter: invert(31%) sepia(98%) saturate(3716%) hue-rotate(197deg) brightness(97%) contrast(92%);"
+                            alt="" />
+                        <span class="text-primary text-xl md:text-xl ">{{ $t('services.list.1')}}</span>
+                    </div>
 
-            <!-- Tarjeta 2 -->
-            <div class="min-h-[200px] bg-white rounded-xl p-8 flex flex-col items-center justify-center
-                        shadow-lg hover:shadow-2xl transition-all duration-300 
-                        transform hover:-translate-y-2 hover:rotate-1 
-                        active:-translate-y-4 active:rotate-2 cursor-pointer">
-                <img src="https://magictourspv.com/storage/icons/professional-team.png"
-                     class="w-14 filter" 
-                     style="filter: invert(31%) sepia(98%) saturate(3716%) hue-rotate(197deg) brightness(97%) contrast(92%);"
-                     alt="" />
-                <span class="text-primary text-xl md:text-base font-semibold">{{ $t('services.list.2')}}</span>
-            </div>
+                    <!-- Tarjeta 2 -->
+                    <div class="min-h-[200px] bg-white rounded-xl p-6 flex flex-col items-center justify-center
+                                shadow-lg hover:shadow-2xl transition-all duration-300 
+                                transform hover:-translate-y-2 hover:rotate-1 
+                                active:-translate-y-4 active:rotate-2 cursor-pointer">
+                        <img src="https://magictourspv.com/storage/icons/professional-team.png"
+                            class="w-14 filter" 
+                            style="filter: invert(31%) sepia(98%) saturate(3716%) hue-rotate(197deg) brightness(97%) contrast(92%);"
+                            alt="" />
+                        <span class="text-primary text-xl md:text-xl">{{ $t('services.list.2')}}</span>
+                    </div>
 
-            <!-- Tarjeta 3 -->
-            <div class="min-h-[200px] bg-white rounded-xl p-4 md:p-8 flex flex-col items-center  justify-center
-                        shadow-lg hover:shadow-2xl transition-all duration-300 
-                        transform hover:-translate-y-2 hover:rotate-1 
-                        active:-translate-y-4 active:rotate-2 cursor-pointer">
-                <img src="https://magictourspv.com/storage/icons/top-tier.png"
-                     class="w-14 filter" 
-                     style="filter: invert(31%) sepia(98%) saturate(3716%) hue-rotate(197deg) brightness(97%) contrast(92%);"
-                     alt="" />
-                <span class="text-primary text-xl md:text-base font-semibold">{{ $t('services.list.3')}}</span>
-            </div>
+                    <!-- Tarjeta 3 -->
+                    <div class="min-h-[200px] bg-white rounded-xl p-6 md:p-8 flex flex-col items-center  justify-center
+                                shadow-lg hover:shadow-2xl transition-all duration-300 
+                                transform hover:-translate-y-2 hover:rotate-1 
+                                active:-translate-y-4 active:rotate-2 cursor-pointer">
+                        <img src="https://magictourspv.com/storage/icons/top-tier.png"
+                            class="w-14 filter" 
+                            style="filter: invert(31%) sepia(98%) saturate(3716%) hue-rotate(197deg) brightness(97%) contrast(92%);"
+                            alt="" />
+                        <span class="text-primary text-xl md:text-xl">{{ $t('services.list.3')}}</span>
+                    </div>
 
+                </div>
+            </div>
         </div>
-    </div>
-</div>
         <!-- <div class="services bg-gradient-to-r from-[#3A8DFF] to-[#00A8E8]">
             <div class="description w-full text-center py-10">
                 <div class="container mx-auto w-4/5">
@@ -109,14 +109,19 @@
 
         <!-- <TourList /> -->
         <div class="SlideBottom">
-            <div class="container mx-auto lg:w-2/3 py-10">
-                <h3 class="text-3xl text-primary font-bold mb-5 text-start md:text-center ">{{ $t('slideBottom.title') }}</h3>
-                <p class="text-base text-start lg:text-center sm:text-lg md:text-base">{{ $t('slideBottom.description') }}</p>
+            <div class="container mx-auto lg:w-3/4 py-10">
+                <h3 class="font-heading text-4xl text-primary font-bold mb-5 text-start md:text-center ">{{ $t('slideBottom.title') }}</h3>
+                <p class="text-base text-start lg:text-center sm:text-lg md:text-base lg:text-lg"  v-html="$t('slideBottom.description')"></p>
             </div>
             <div class="px-4 md:px-12">
                 <ElegantSlider :items="ESlider" />
             </div>
         </div>
+
+        <!-- Newsletter -->
+         <div class="">
+            <Newsletter />
+         </div>
     </div>
 </template>
 
@@ -138,6 +143,7 @@
     // import Metas from '../components/Metas.vue'
     import ElegantSlider from "../components/ElegantSlider.vue" 
     import ctadventure from '../components/ctadventure.vue';
+    import Newsletter from '../components/Newsletter.vue';
 
     // Elegante Slider
     const ESlider = [
@@ -156,7 +162,7 @@
     // const tours = ref([])
     // const loading = ref(true)
     // const localeStore = useLocaleStore()
-
+    
     const localeStore = useLocaleStore()
     const tours = ref([])
     const loading = ref(true)
@@ -175,9 +181,8 @@
     const fetchTours = async () => {
         loading.value = true
         try {
-            // const res = await axios.get(`/api/tours?lang=${localeStore.locale}`)
-            const res = await api.get(`api/tours?lang=${localeStore.locale}`)
-            // const res = await axios.get(`https://www.magictourspv.com/api/tours?lang=${localeStore.locale}`)
+            // const res = await api.get(`api/tours?lang=${localeStore.locale}`)
+            const res = await api.get(`https://www.magictourspv.com/api/tours?lang=${localeStore.locale}`)
             tours.value = res.data
             // alert('Tour recibido: ' + JSON.stringify(tours.value, null, 2))
         } catch (error) {

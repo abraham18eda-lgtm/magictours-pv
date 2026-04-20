@@ -1,6 +1,6 @@
 <template>
 <!-- Topbar -->
-<div class="bg-gray-900 text-gray-100 text-sm hidden lg:flex">
+<div class="bg-esmeralda-100 text-gray-100 text-sm hidden lg:flex">
   <div class="container mx-auto px-4">
     <div class="flex justify-between items-center py-2">
 

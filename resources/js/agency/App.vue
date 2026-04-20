@@ -110,6 +110,15 @@
     import { setLang, t } from '../lang'
     import { useI18n } from 'vue-i18n'
     import api from '../plugins/axios'
+    
+    import '@fontsource/inter/400.css'
+    import '@fontsource/inter/500.css'
+    import '@fontsource/inter/600.css'
+
+    import '@fontsource/cormorant-garamond/400.css'
+    import '@fontsource/cormorant-garamond/500.css'
+    import '@fontsource/cormorant-garamond/600.css'
+    import '@fontsource/cormorant-garamond/700.css'
 
     const drawerOpen = ref(false)
     const tours = ref([])

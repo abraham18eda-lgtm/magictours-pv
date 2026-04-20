@@ -37,7 +37,8 @@
     <!-- Botón izquierdo -->
     <button
       @click="prevSlide"
-      class="absolute left-4 top-1/2 transform -translate-y-1/2 bg-black bg-opacity-75 text-white rounded-full p-3 hover:bg-opacity-75 transition z-30 mt-6"
+      class="absolute left-4 top-1/2 transform -translate-y-1/2 
+      bg-black bg-opacity-75 text-white rounded-full p-3 hover:bg-opacity-75 transition z-30 mt-6"
       aria-label="Anterior"
       type="button"
     >
@@ -112,18 +113,18 @@ let interval = null
 
 const startSlider = () => {
   interval = setInterval(() => {
-    currentSlide.value = (currentSlide.value + 1) % slides.value.length
+    currentSlide.value = (currentSlide.value + 1) % Bannerslides.value.length
   }, 8000)
 }
 
 const nextSlide = () => {
-  currentSlide.value = (currentSlide.value + 1) % slides.value.length
+  currentSlide.value = (currentSlide.value + 1) % Bannerslides.value.length
   resetInterval()
 }
 
 const prevSlide = () => {
   currentSlide.value =
-    (currentSlide.value - 1 + slides.value.length) % slides.value.length
+    (currentSlide.value - 1 + Bannerslides.value.length) % Bannerslides.value.length
   resetInterval()
 }
 
